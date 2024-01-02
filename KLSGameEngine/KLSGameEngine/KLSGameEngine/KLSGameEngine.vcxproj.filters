@@ -1,0 +1,745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_KLS_OpenGL_Driver">
+      <UniqueIdentifier>{7fc8c633-0ac9-4f78-afe9-f45a13e1530f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_OpenGL_Driver\_Include">
+      <UniqueIdentifier>{f29402c2-de52-425b-8f0c-6589737da004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_OpenGL_Driver\_Source">
+      <UniqueIdentifier>{f9258adc-cc3b-4adb-93b0-9dc4e0238fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core">
+      <UniqueIdentifier>{e0e6bbd7-ff89-47a0-8bf9-3267582f48e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_Application">
+      <UniqueIdentifier>{c2e8cf74-16fa-4be9-89f1-6d8d6f76dce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_Application\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_Application\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_KLS_ImGui">
+      <UniqueIdentifier>{c04fd417-c9a3-453e-a549-02bbffe6856a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_ImGui\_KLS_ImGui">
+      <UniqueIdentifier>{e1ff3af1-eb0d-44a1-9c02-31bb72bb367d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_ImGui\_KLS_ImGui\_Include">
+      <UniqueIdentifier>{569ad619-1227-422b-8725-4daeddb8877a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_ImGui\_KLS_ImGui\_Source">
+      <UniqueIdentifier>{59ea0bf4-8db0-483c-853f-6e382f87cb35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_ImGui\ImGui">
+      <UniqueIdentifier>{3a20ddcc-559a-4844-bfdd-80954ecea248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_Driver">
+      <UniqueIdentifier>{01e28555-9639-41df-a4aa-5a93e4cea710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_Driver\_Include">
+      <UniqueIdentifier>{865abcf6-ac43-4f06-b5f2-4f505e048741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_Driver\_Source">
+      <UniqueIdentifier>{566dd78b-9a5d-43b0-91d1-ef053ab287c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_ECS">
+      <UniqueIdentifier>{1a97a546-3048-43e5-a2a0-9ad3cf23dbef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_Math">
+      <UniqueIdentifier>{962955f3-1275-42c4-8c7d-b1e4ec02ac84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_Math\_Include">
+      <UniqueIdentifier>{ec342cf7-df63-4fdd-87e6-e2d0ea1042a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_Math\_Source">
+      <UniqueIdentifier>{fd420828-38df-4560-840b-13fdbce04e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_ECS\_Include">
+      <UniqueIdentifier>{eaf1c276-2873-4abf-a483-189e05efd28f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_ECS\_Source">
+      <UniqueIdentifier>{487f7c15-6727-4216-a5df-537a659954c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_OpenGL_Driver\Shaders">
+      <UniqueIdentifier>{73848aba-1c25-4775-bbb6-a547fb723f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_OpenGL_Driver\Shaders\_Default">
+      <UniqueIdentifier>{80690497-c2c9-4182-90aa-4fcfa9332537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_OpenGL_Driver\Shaders\_PostProcessing">
+      <UniqueIdentifier>{8870ae82-751f-4296-b9c9-3b2bbd533d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_PhysX">
+      <UniqueIdentifier>{33c54907-1303-46fe-a10a-37f2327e83a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_PhysX\_Include">
+      <UniqueIdentifier>{48375e2a-ca39-4276-b5fe-0ec243ce250c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_PhysX\_Source">
+      <UniqueIdentifier>{fee4e189-1a4d-43a9-9edb-0ff4ae7dcae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\KLS_Editor">
+      <UniqueIdentifier>{850cfb31-3e5c-4345-bb43-2c7616ec27eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\KLS_Editor\_Include">
+      <UniqueIdentifier>{f42ffa26-031c-45b9-8f11-8b9760dd91d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\KLS_Editor\_Source">
+      <UniqueIdentifier>{a94d8056-9464-4f9f-beeb-1851c41f6a84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_Application.cpp">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_EventHandler.cpp">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_File.cpp">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_KeyMap.cpp">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_Logger.cpp">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_String.cpp">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_Window.cpp">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\_KLS_Driver.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_OpenGL_Driver\_Source\_KLS_OpenGL_Driver.cpp">
+      <Filter>_KLS_OpenGL_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_ImGui\_Source\KLS_ImGui.cpp">
+      <Filter>_KLS_ImGui\_KLS_ImGui\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Driver_Render.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_OpenGL_Driver\_Source\KLS_OpenGL_Driver_Render.cpp">
+      <Filter>_KLS_OpenGL_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_Externals\glad\glad\gl.c">
+      <Filter>_KLS_OpenGL_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Texture.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_OpenGL_Driver\_Source\KLS_OpenGL_Texture.cpp">
+      <Filter>_KLS_OpenGL_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_OpenGL_Driver\_Source\KLS_OpenGL_Texture_Cubemap.cpp">
+      <Filter>_KLS_OpenGL_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_ResourceManager.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_ResourceManager_Texture.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_Externals\cmake-imgui\imgui\imgui_widgets.cpp">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_Externals\cmake-imgui\imgui\imgui_tables.cpp">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_Externals\cmake-imgui\imgui\imgui_draw.cpp">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_Externals\cmake-imgui\imgui\imgui_demo.cpp">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_Externals\cmake-imgui\imgui\imgui.cpp">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_Externals\cmake-imgui\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_Externals\cmake-imgui\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Buffer.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Material.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Mesh.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_MeshBuffer.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Pipeline.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_VertexBufferLayout.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_AnimatedMesh.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Animation.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Animator.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Skeleton.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_OpenGL_Driver\_Source\KLS_OpenGL_Buffer.cpp">
+      <Filter>_KLS_OpenGL_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_OpenGL_Driver\_Source\KLS_OpenGL_Pipeline.cpp">
+      <Filter>_KLS_OpenGL_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Math\_Source\KLS_AABBBox.cpp">
+      <Filter>_KLS_Core\_KLS_Math\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Math\_Source\KLS_BoundingSphere.cpp">
+      <Filter>_KLS_Core\_KLS_Math\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Math\_Source\KLS_Frustum.cpp">
+      <Filter>_KLS_Core\_KLS_Math\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Math\_Source\KLS_Line.cpp">
+      <Filter>_KLS_Core\_KLS_Math\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Math\_Source\KLS_Math.cpp">
+      <Filter>_KLS_Core\_KLS_Math\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Math\_Source\KLS_Transform.cpp">
+      <Filter>_KLS_Core\_KLS_Math\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_AssimpHelpers.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_ResourceManager_AnimatedMesh.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_ResourceManager_Creation.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_ResourceManager_Mesh.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_ResourceManager_Pipeline.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_ResourceManager_LoadDefaults.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_Timer.cpp">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_FrameBuffer.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_OpenGL_Driver\_Source\KLS_OpenGL_FrameBuffer.cpp">
+      <Filter>_KLS_OpenGL_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_FrameBufferManager.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_FullscreenQuad.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_Geometry.cpp">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Camera.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Camera_FPS.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_Level.cpp">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_LevelManager.cpp">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_ECS.cpp">
+      <Filter>_KLS_Core\_KLS_ECS\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_Entity.cpp">
+      <Filter>_KLS_Core\_KLS_ECS\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_Components.cpp">
+      <Filter>_KLS_Core\_KLS_ECS\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_ECS_System.cpp">
+      <Filter>_KLS_Core\_KLS_ECS\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\_KLS_ECS_Systems.cpp">
+      <Filter>_KLS_Core\_KLS_ECS\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX.cpp">
+      <Filter>_KLS_Core\_KLS_PhysX\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX_Object.cpp">
+      <Filter>_KLS_Core\_KLS_PhysX\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX_Object_Character.cpp">
+      <Filter>_KLS_Core\_KLS_PhysX\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX_Object_Dynamic.cpp">
+      <Filter>_KLS_Core\_KLS_PhysX\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX_Object_Static.cpp">
+      <Filter>_KLS_Core\_KLS_PhysX\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX_World.cpp">
+      <Filter>_KLS_Core\_KLS_PhysX\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX_World_Callbacks.cpp">
+      <Filter>_KLS_Core\_KLS_PhysX\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX_World_Creation.cpp">
+      <Filter>_KLS_Core\_KLS_PhysX\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Camera_Editor.cpp">
+      <Filter>_KLS_Core\_KLS_Driver\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_Level_Creation.cpp">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor.cpp">
+      <Filter>_KLS_Core\KLS_Editor\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI.cpp">
+      <Filter>_KLS_Core\KLS_Editor\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_Externals\ImGuizmo-master\ImGuizmo.cpp">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_ImGui\_Source\KLS_ImGui_Controls.cpp">
+      <Filter>_KLS_ImGui\_KLS_ImGui\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI_Content.cpp">
+      <Filter>_KLS_Core\KLS_Editor\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI_Entity.cpp">
+      <Filter>_KLS_Core\KLS_Editor\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI_Resource.cpp">
+      <Filter>_KLS_Core\KLS_Editor\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI_LevelInfo.cpp">
+      <Filter>_KLS_Core\KLS_Editor\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI_Material.cpp">
+      <Filter>_KLS_Core\KLS_Editor\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI_PhysX.cpp">
+      <Filter>_KLS_Core\KLS_Editor\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI_Menus.cpp">
+      <Filter>_KLS_Core\KLS_Editor\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_Level_Serialize.cpp">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_UUID.cpp">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\_KLS_Defines.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\_KLS_Enums.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\_KLS_Includes.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Application.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_ApplicationCreationInfo.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Colors.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Event.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_EventHandler.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_File.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_KeyCodes.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_KeyMap.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Logger.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_String.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Window.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\_KLS_Driver.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_OpenGL_Driver\_Include\_KLS_OpenGL_Driver.h">
+      <Filter>_KLS_OpenGL_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ImGui\_Include\KLS_ImGui.h">
+      <Filter>_KLS_ImGui\_KLS_ImGui\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Texture.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_OpenGL_Driver\_Include\KLS_OpenGL_Texture.h">
+      <Filter>_KLS_OpenGL_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_OpenGL_Driver\_Include\KLS_OpenGL_Texture_Cubemap.h">
+      <Filter>_KLS_OpenGL_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Texture_Cubemap.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_ResourceManager.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\imstb_truetype.h">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\imstb_textedit.h">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\imstb_rectpack.h">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\imgui_internal.h">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\imgui.h">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\imconfig.h">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\backends\imgui_impl_glfw.h">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\backends\imgui_impl_opengl3_loader.h">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Buffer.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Material.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Mesh.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_MeshBuffer.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Pipeline.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_UniformData.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_VertexBufferLayout.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_AnimatedMesh.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Animation.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_AnimationEnd.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Animator.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Bone.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Skeleton.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_OpenGL_Driver\_Include\KLS_OpenGL_Buffer.h">
+      <Filter>_KLS_OpenGL_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_OpenGL_Driver\_Include\KLS_OpenGL_Pipeline.h">
+      <Filter>_KLS_OpenGL_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_AABBBox.h">
+      <Filter>_KLS_Core\_KLS_Math\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_BoundingSphere.h">
+      <Filter>_KLS_Core\_KLS_Math\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_Frustum.h">
+      <Filter>_KLS_Core\_KLS_Math\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_Line.h">
+      <Filter>_KLS_Core\_KLS_Math\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_Math.h">
+      <Filter>_KLS_Core\_KLS_Math\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_Plane.h">
+      <Filter>_KLS_Core\_KLS_Math\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_Transform.h">
+      <Filter>_KLS_Core\_KLS_Math\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_AssimpHelpers.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Timer.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_FrameBuffer.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_OpenGL_Driver\_Include\KLS_OpenGL_FrameBuffer.h">
+      <Filter>_KLS_OpenGL_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_FrameBufferManager.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_FullscreenQuad.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Geometry.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Camera.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Camera_FPS.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Level.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_LevelManager.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\KLS_ECS.h">
+      <Filter>_KLS_Core\_KLS_ECS\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\KLS_Entity.h">
+      <Filter>_KLS_Core\_KLS_ECS\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\_KLS_ECS_Components.h">
+      <Filter>_KLS_Core\_KLS_ECS\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\KLS_ECS_System.h">
+      <Filter>_KLS_Core\_KLS_ECS\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\_KLS_ECS_Systems.h">
+      <Filter>_KLS_Core\_KLS_ECS\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\_KLS_PhysX.h">
+      <Filter>_KLS_Core\_KLS_PhysX\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\KLS_PhysX_Object.h">
+      <Filter>_KLS_Core\_KLS_PhysX\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\KLS_PhysX_Object_Character.h">
+      <Filter>_KLS_Core\_KLS_PhysX\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\KLS_PhysX_Object_Dynamic.h">
+      <Filter>_KLS_Core\_KLS_PhysX\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\KLS_PhysX_Object_Static.h">
+      <Filter>_KLS_Core\_KLS_PhysX\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\KLS_PhysX_Object_Tree.h">
+      <Filter>_KLS_Core\_KLS_PhysX\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\KLS_PhysX_ObjectCreationParams.h">
+      <Filter>_KLS_Core\_KLS_PhysX\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\KLS_PhysX_World.h">
+      <Filter>_KLS_Core\_KLS_PhysX\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Message.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Camera_Editor.h">
+      <Filter>_KLS_Core\_KLS_Driver\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\KLS_Editor\_Include\KLS_Editor.h">
+      <Filter>_KLS_Core\KLS_Editor\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Externals\ImGuizmo-master\ImGuizmo.h">
+      <Filter>_KLS_ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_UUID.h">
+      <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint">
+      <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </None>
+    <None Include="..\..\_Examples\_Bin\_Media\_Assets\_Shaders\_OpenGL\_PostEffects\2d_greyscale.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_PostProcessing</Filter>
+    </None>
+    <None Include="..\..\_Examples\_Bin\_Media\_Assets\_Shaders\_OpenGL\_PostEffects\2d_greyscale.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_PostProcessing</Filter>
+    </None>
+    <None Include="..\..\_Examples\_Bin\_Media\_Assets\_Shaders\_OpenGL\_PostEffects\fullscreenquad.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_PostProcessing</Filter>
+    </None>
+    <None Include="..\..\_Examples\_Bin\_Media\_Assets\_Shaders\_OpenGL\_PostEffects\fullscreenquad.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_PostProcessing</Filter>
+    </None>
+    <None Include="..\..\_Examples\_Bin\_Media\_Assets\_Shaders\_OpenGL\_PostEffects\2d_inverted.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_PostProcessing</Filter>
+    </None>
+    <None Include="..\..\_Examples\_Bin\_Media\_Assets\_Shaders\_OpenGL\_PostEffects\2d_inverted.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_PostProcessing</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\2d.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\2d.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\2d_texture.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\2d_texture.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\animatedmesh.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\animatedmesh.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\bumpmap.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\bumpmap.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\color.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\color.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\infiniteplane - Copy.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\infiniteplane - Copy.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\infiniteplane.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\infiniteplane.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\instanced.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\instanced.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\normals.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\normals.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\particles.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\particles.gs">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\particles.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\skybox.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\skybox.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\sun.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\sun.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\terrain.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\terrain.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\terrain_height.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\terrain_height.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\textured.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\textured.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\triplaner.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\triplaner.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\uv.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\uv.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\water.frag">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\water.vert">
+      <Filter>_KLS_OpenGL_Driver\Shaders\_Default</Filter>
+    </None>
+  </ItemGroup>
+</Project>

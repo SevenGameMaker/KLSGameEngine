@@ -1,0 +1,14 @@
+KLSGameEngine/_Externals
+KLSGameEngine/KLSGameEngine/_Lib
+KLSGameEngine/KLSGameEngine/KLSGameEngine/x64
+KLSGameEngine/KLSGameEngine/KLSGameEngine/.vs
+KLSGameEngine/_Examples/001_HelloWorld/x64
+KLSGameEngine/_Examples/_Bin/_DDLFiles
+KLSGameEngine/_Examples/_Bin/_DDLFiles/_Debug
+KLSGameEngine/_Examples/_Bin/_DDLFiles/_Release
+
+*.dll
+*.pdb
+*.exe
+*.exp
+*.lib

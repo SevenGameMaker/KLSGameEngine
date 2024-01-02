@@ -1,0 +1,1261 @@
+[08:04:02] [info] KLS: Logger initiated
+[08:04:02] [trace] KLS: KLS_EventHandler::KLS_EventHandler()
+[08:04:02] [trace] KLS: KLS_Application::KLS_Application()
+[08:04:02] [trace] KLS: myApp::myApp()
+[08:04:02] [trace] KLS: myApp::create()
+[08:04:02] [trace] KLS: KLS_Application::create()
+[08:04:02] [warning] KLS: copying files from D:\_Programming\_Best Core Application\KLS Game Engine Core\_Examples\_Bin\\_DLLFiles\_Debug
+[08:04:02] [info] KLS: Copied: D:\_Programming\_Best Core Application\KLS Game Engine Core\_Examples\_Bin\\_DLLFiles\_Debug\PhysXCommon_64.dll 
+[08:04:02] [info] KLS: Copied: D:\_Programming\_Best Core Application\KLS Game Engine Core\_Examples\_Bin\\_DLLFiles\_Debug\PhysXCooking_64.dll 
+[08:04:02] [info] KLS: Copied: D:\_Programming\_Best Core Application\KLS Game Engine Core\_Examples\_Bin\\_DLLFiles\_Debug\PhysXDevice64.dll 
+[08:04:02] [info] KLS: Copied: D:\_Programming\_Best Core Application\KLS Game Engine Core\_Examples\_Bin\\_DLLFiles\_Debug\PhysXFoundation_64.dll 
+[08:04:02] [info] KLS: Copied: D:\_Programming\_Best Core Application\KLS Game Engine Core\_Examples\_Bin\\_DLLFiles\_Debug\PhysXGpu_64.dll 
+[08:04:02] [info] KLS: Copied: D:\_Programming\_Best Core Application\KLS Game Engine Core\_Examples\_Bin\\_DLLFiles\_Debug\PhysX_64.dll 
+[08:04:02] [warning] KLS:   changed back to directory D:\_Programming\_Best Core Application\KLS Game Engine Core\_Examples\_Bin
+[08:04:02] [trace] KLS: KLS_Window::KLS_Window()
+[08:04:02] [trace] KLS: KLS_Window::create()
+[08:04:02] [trace] KLS: Event : 0 default KLS_EVT_SYSTEM              KLS_SYSTEM_WINDOWMOVED   
+[08:04:02] [trace] KLS: Event : 0 default KLS_EVT_SYSTEM              KLS_SYSTEM_FRAMEBUFFERRESIZED
+[08:04:02] [trace] KLS: Event : 0 default KLS_EVT_SYSTEM              KLS_SYSTEM_WINDOWSIZED   
+[08:04:02] [trace] KLS: KLS_EventHandler::KLS_EventHandler()
+[08:04:02] [trace] KLS: KLS_Driver::KLS_Driver()
+[08:04:02] [trace] KLS: KLS_OpenGL_Driver::KLS_OpenGL_Driver()
+[08:04:02] [trace] KLS: KLS_OpenGL_Driver::create()
+[08:04:02] [trace] KLS: KLS_Driver::create()
+[08:04:02] [trace] KLS: KLS_ResourceManager::KLS_ResourceManager()
+[08:04:02] [trace] KLS: KLS_ResourceManager::create()
+[08:04:02] [trace] KLS: KLS_FrameBufferManager::KLS_FrameBufferManager()
+[08:04:02] [trace] KLS: KLS_FrameBufferManager::initialize()
+[08:04:02] [trace] KLS: KLS_FrameBufferManager::create()
+[08:04:02] [trace] KLS: KLS_FullscreenQuad::KLS_FullscreenQuad
+[08:04:02] [info] KLS:  creating FBOs
+[08:04:02] [trace] KLS: KLS_FrameBuffer::KLS_FrameBuffer()
+[08:04:02] [trace] KLS: KLS_OpenGL_FrameBuffer::KLS_OpenGL_FrameBuffer()
+[08:04:02] [trace] KLS: KLS_OpenGL_FrameBuffer::initialize()
+[08:04:02] [trace] KLS: KLS_FrameBuffer::initialize()
+[08:04:02] [trace] KLS: KLS_OpenGL_FrameBuffer::create()
+[08:04:02] [trace] KLS: KLS_FrameBuffer::create()
+[08:04:02] [trace] KLS: KLS_OpenGL_FrameBuffer::finalize()
+[08:04:02] [trace] KLS: KLS_FrameBuffer::finalize()
+[08:04:02] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:02] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:02] [trace] KLS:   KLS_OpenGL_Texture::create(fbo0_color 1024 742)
+[08:04:02] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 1024 742)
+[08:04:02] [trace] KLS: KLS_ResourceManager::addTexture(fbo0_color)
+[08:04:02] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:02] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:02] [trace] KLS:   KLS_OpenGL_Texture::create(fbo0_picker 1024 742)
+[08:04:02] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 1024 742)
+[08:04:02] [trace] KLS: KLS_ResourceManager::addTexture(fbo0_picker)
+[08:04:02] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:02] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:02] [trace] KLS:   KLS_OpenGL_Texture::create(fbo0depthbuffer1 1024 742)
+[08:04:02] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 1024 742)
+[08:04:02] [trace] KLS: KLS_ResourceManager::addTexture(fbo0depthbuffer1)
+[08:04:02] [trace] KLS: KLS_FrameBuffer::KLS_FrameBuffer()
+[08:04:02] [trace] KLS: KLS_OpenGL_FrameBuffer::KLS_OpenGL_FrameBuffer()
+[08:04:02] [trace] KLS: KLS_OpenGL_FrameBuffer::initialize()
+[08:04:02] [trace] KLS: KLS_FrameBuffer::initialize()
+[08:04:02] [trace] KLS: KLS_OpenGL_FrameBuffer::create()
+[08:04:02] [trace] KLS: KLS_FrameBuffer::create()
+[08:04:02] [trace] KLS: KLS_OpenGL_FrameBuffer::finalize()
+[08:04:02] [trace] KLS: KLS_FrameBuffer::finalize()
+[08:04:02] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:02] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:02] [trace] KLS:   KLS_OpenGL_Texture::create(imguifbo_color 1024 742)
+[08:04:02] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 1024 742)
+[08:04:02] [trace] KLS: KLS_ResourceManager::addTexture(imguifbo_color)
+[08:04:02] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:02] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:02] [trace] KLS:   KLS_OpenGL_Texture::create(imguifbo_picker 1024 742)
+[08:04:02] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 1024 742)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addTexture(imguifbo_picker)
+[08:04:03] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Texture::create(imguifbodepthbuffer1 1024 742)
+[08:04:03] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 1024 742)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addTexture(imguifbodepthbuffer1)
+[08:04:03] [trace] KLS: KLS_FrameBuffer::KLS_FrameBuffer()
+[08:04:03] [trace] KLS: KLS_OpenGL_FrameBuffer::KLS_OpenGL_FrameBuffer()
+[08:04:03] [trace] KLS: KLS_OpenGL_FrameBuffer::initialize()
+[08:04:03] [trace] KLS: KLS_FrameBuffer::initialize()
+[08:04:03] [trace] KLS: KLS_OpenGL_FrameBuffer::create()
+[08:04:03] [trace] KLS: KLS_FrameBuffer::create()
+[08:04:03] [trace] KLS: KLS_OpenGL_FrameBuffer::finalize()
+[08:04:03] [trace] KLS: KLS_FrameBuffer::finalize()
+[08:04:03] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Texture::create(fbo1_color 1024 742)
+[08:04:03] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 1024 742)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addTexture(fbo1_color)
+[08:04:03] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Texture::create(fbo1_picker 1024 742)
+[08:04:03] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 1024 742)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addTexture(fbo1_picker)
+[08:04:03] [trace] KLS: KLS_FrameBuffer::KLS_FrameBuffer()
+[08:04:03] [trace] KLS: KLS_OpenGL_FrameBuffer::KLS_OpenGL_FrameBuffer()
+[08:04:03] [trace] KLS: KLS_OpenGL_FrameBuffer::initialize()
+[08:04:03] [trace] KLS: KLS_FrameBuffer::initialize()
+[08:04:03] [trace] KLS: KLS_OpenGL_FrameBuffer::create()
+[08:04:03] [trace] KLS: KLS_FrameBuffer::create()
+[08:04:03] [trace] KLS: KLS_OpenGL_FrameBuffer::finalize()
+[08:04:03] [trace] KLS: KLS_FrameBuffer::finalize()
+[08:04:03] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Texture::create(reflective_color 1024 742)
+[08:04:03] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 1024 742)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addTexture(reflective_color)
+[08:04:03] [trace] KLS: KLS_FrameBuffer::KLS_FrameBuffer()
+[08:04:03] [trace] KLS: KLS_OpenGL_FrameBuffer::KLS_OpenGL_FrameBuffer()
+[08:04:03] [trace] KLS: KLS_OpenGL_FrameBuffer::initialize()
+[08:04:03] [trace] KLS: KLS_FrameBuffer::initialize()
+[08:04:03] [trace] KLS: KLS_OpenGL_FrameBuffer::create()
+[08:04:03] [trace] KLS: KLS_FrameBuffer::create()
+[08:04:03] [trace] KLS: KLS_OpenGL_FrameBuffer::finalize()
+[08:04:03] [trace] KLS: KLS_FrameBuffer::finalize()
+[08:04:03] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Texture::create(refractive_color 1024 742)
+[08:04:03] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 1024 742)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addTexture(refractive_color)
+[08:04:03] [trace] KLS:   KLS_Pipeline::KLS_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::KLS_OpenGL_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::create(uv)
+[08:04:03] [trace] KLS:   KLS_Pipeline::create(KLS_DEFAULT)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/uv.vert)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/uv.vert)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/uv.frag)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/uv.frag)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::PostCreate(uv)
+[08:04:03] [trace] KLS:   KLS_Pipeline::postCreate(uv)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addPipeline(uv)
+[08:04:03] [trace] KLS:   KLS_Pipeline::KLS_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::KLS_OpenGL_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::create(normals)
+[08:04:03] [trace] KLS:   KLS_Pipeline::create(KLS_DEFAULT)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/normals.vert)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/normals.vert)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/normals.frag)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/normals.frag)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::PostCreate(normals)
+[08:04:03] [trace] KLS:   KLS_Pipeline::postCreate(normals)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addPipeline(normals)
+[08:04:03] [trace] KLS:   KLS_Pipeline::KLS_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::KLS_OpenGL_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::create(skybox)
+[08:04:03] [trace] KLS:   KLS_Pipeline::create(KLS_DEFAULT)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/skybox.vert)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/skybox.vert)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/skybox.frag)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/skybox.frag)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::PostCreate(skybox)
+[08:04:03] [trace] KLS:   KLS_Pipeline::postCreate(skybox)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addPipeline(skybox)
+[08:04:03] [trace] KLS:   KLS_Pipeline::KLS_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::KLS_OpenGL_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::create(textured)
+[08:04:03] [trace] KLS:   KLS_Pipeline::create(KLS_DEFAULT)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/textured.vert)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/textured.vert)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/textured.frag)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/textured.frag)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::PostCreate(textured)
+[08:04:03] [trace] KLS:   KLS_Pipeline::postCreate(textured)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addPipeline(textured)
+[08:04:03] [trace] KLS:   KLS_Pipeline::KLS_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::KLS_OpenGL_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::create(terrain)
+[08:04:03] [trace] KLS:   KLS_Pipeline::create(KLS_DEFAULT)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/terrain.vert)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/terrain.vert)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/terrain.frag)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/terrain.frag)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::PostCreate(terrain)
+[08:04:03] [trace] KLS:   KLS_Pipeline::postCreate(terrain)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addPipeline(terrain)
+[08:04:03] [trace] KLS:   KLS_Pipeline::KLS_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::KLS_OpenGL_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::create(fullscreenquad)
+[08:04:03] [trace] KLS:   KLS_Pipeline::create(KLS_DEFAULT)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_posteffects/fullscreenquad.vert)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_posteffects/fullscreenquad.vert)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_posteffects/fullscreenquad.frag)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_posteffects/fullscreenquad.frag)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::PostCreate(fullscreenquad)
+[08:04:03] [trace] KLS:   KLS_Pipeline::postCreate(fullscreenquad)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addPipeline(fullscreenquad)
+[08:04:03] [trace] KLS:   KLS_Pipeline::KLS_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::KLS_OpenGL_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::create(animatedmesh)
+[08:04:03] [trace] KLS:   KLS_Pipeline::create(KLS_DEFAULT)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/animatedmesh.vert)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/animatedmesh.vert)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/animatedmesh.frag)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/animatedmesh.frag)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::PostCreate(animatedmesh)
+[08:04:03] [trace] KLS:   KLS_Pipeline::postCreate(animatedmesh)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addPipeline(animatedmesh)
+[08:04:03] [trace] KLS:   KLS_Pipeline::KLS_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::KLS_OpenGL_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::create(color)
+[08:04:03] [trace] KLS:   KLS_Pipeline::create(KLS_DEFAULT)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/color.vert)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/color.vert)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/color.frag)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/color.frag)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::PostCreate(color)
+[08:04:03] [trace] KLS:   KLS_Pipeline::postCreate(color)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addPipeline(color)
+[08:04:03] [trace] KLS:   KLS_Pipeline::KLS_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::KLS_OpenGL_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::create(particles)
+[08:04:03] [trace] KLS:   KLS_Pipeline::create(KLS_DEFAULT)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/particles.vert)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/particles.vert)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/particles.gs)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/particles.gs)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/particles.frag)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/particles.frag)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::PostCreate(particles)
+[08:04:03] [trace] KLS:   KLS_Pipeline::postCreate(particles)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addPipeline(particles)
+[08:04:03] [trace] KLS:   KLS_Pipeline::KLS_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::KLS_OpenGL_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::create(sun)
+[08:04:03] [trace] KLS:   KLS_Pipeline::create(KLS_DEFAULT)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/sun.vert)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/sun.vert)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/sun.frag)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/sun.frag)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::PostCreate(sun)
+[08:04:03] [trace] KLS:   KLS_Pipeline::postCreate(sun)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addPipeline(sun)
+[08:04:03] [trace] KLS:   KLS_Pipeline::KLS_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::KLS_OpenGL_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::create(instanced)
+[08:04:03] [trace] KLS:   KLS_Pipeline::create(KLS_DEFAULT)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/instanced.vert)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/instanced.vert)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/textured.frag)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/textured.frag)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::PostCreate(instanced)
+[08:04:03] [trace] KLS:   KLS_Pipeline::postCreate(instanced)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addPipeline(instanced)
+[08:04:03] [trace] KLS:   KLS_Pipeline::KLS_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::KLS_OpenGL_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::create(bumpmap)
+[08:04:03] [trace] KLS:   KLS_Pipeline::create(KLS_DEFAULT)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/bumpmap.vert)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/bumpmap.vert)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/bumpmap.frag)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/bumpmap.frag)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::PostCreate(bumpmap)
+[08:04:03] [trace] KLS:   KLS_Pipeline::postCreate(bumpmap)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addPipeline(bumpmap)
+[08:04:03] [trace] KLS:   KLS_Pipeline::KLS_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::KLS_OpenGL_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::create(infiniteplane)
+[08:04:03] [trace] KLS:   KLS_Pipeline::create(KLS_DEFAULT)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/infiniteplane.vert)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/infiniteplane.vert)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_default/infiniteplane.frag)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_default/infiniteplane.frag)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::PostCreate(infiniteplane)
+[08:04:03] [trace] KLS:   KLS_Pipeline::postCreate(infiniteplane)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addPipeline(infiniteplane)
+[08:04:03] [trace] KLS:   KLS_Pipeline::KLS_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::KLS_OpenGL_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::create(2dgreyscale)
+[08:04:03] [trace] KLS:   KLS_Pipeline::create(KLS_DEFAULT)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_posteffects/2d_greyscale.vert)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_posteffects/2d_greyscale.vert)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_posteffects/2d_greyscale.frag)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_posteffects/2d_greyscale.frag)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::PostCreate(2dgreyscale)
+[08:04:03] [trace] KLS:   KLS_Pipeline::postCreate(2dgreyscale)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addPipeline(2dgreyscale)
+[08:04:03] [trace] KLS:   KLS_Pipeline::KLS_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::KLS_OpenGL_Pipeline()
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::create(2dinverted)
+[08:04:03] [trace] KLS:   KLS_Pipeline::create(KLS_DEFAULT)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_posteffects/2d_inverted.vert)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_posteffects/2d_inverted.vert)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::addShader(../../../../_media/_assets/_shaders/_opengl/_posteffects/2d_inverted.frag)
+[08:04:03] [trace] KLS:   ../../../../_media/_assets/_shaders/_opengl/_posteffects/2d_inverted.frag)
+[08:04:03] [trace] KLS:   KLS_OpenGL_Pipeline::PostCreate(2dinverted)
+[08:04:03] [trace] KLS:   KLS_Pipeline::postCreate(2dinverted)
+[08:04:03] [trace] KLS: KLS_ResourceManager::addPipeline(2dinverted)
+[08:04:03] [trace] KLS: KLS_LevelManager::KLS_LevelManager()
+[08:04:03] [trace] KLS: KLS_LevelManager::create()
+[08:04:03] [trace] KLS: KLS_PhysX::KLS_PhysX()
+[08:04:03] [trace] KLS: KLS_PhysX::initialize()
+[08:04:03] [info] KLS: --------------------------
+[08:04:03] [info] KLS: KLS_PhysX::create()
+[08:04:03] [info] KLS: KLS_PhysX::createCUDA()
+[08:04:03] [info] KLS:   attempting to createCudaContext
+[08:04:11] [info] KLS:   Cuda creation successful. PhysX will be done on the GPU
+[08:04:11] [info] KLS: KLS_PhysX::createPVDConnection()
+[08:04:11] [info] KLS:   PVD connection will be available
+[08:04:11] [info] KLS: KLS_PhysX::created successfully
+[08:04:11] [info] KLS: --------------------------------------
+[08:04:11] [trace] KLS: KLS_ImGui::KLS_ImGui()
+[08:04:11] [trace] KLS: KLS_ImGui::create()
+[08:04:11] [info] KLS:  KLS_FrameBufferManager::onSystemFrameBufferResized()
+[08:04:11] [trace] KLS: Event : 0 default KLS_EVT_SYSTEM              KLS_SYSTEM_FRAMEBUFFERRESIZED
+[08:04:11] [trace] KLS: Event : 0 default KLS_EVT_SYSTEM              KLS_SYSTEM_FRAMEBUFFERRESIZED
+[08:04:11] [trace] KLS: KLS_EventHandler::KLS_EventHandler()
+[08:04:11] [trace] KLS: KLS_Level::KLS_Level()
+[08:04:11] [trace] KLS: KLS_Editor::KLS_Editor()
+[08:04:11] [trace] KLS: KLS_Editor::create()
+[08:04:11] [trace] KLS: KLS_Level::create()
+[08:04:11] [trace] KLS: KLS_PhysX_World::KLS_PhysX_World()
+[08:04:11] [trace] KLS: KLS_PhysX_World::initialize()
+[08:04:11] [trace] KLS: KLS_PhysX_World::create()
+[08:04:11] [trace] KLS:  KLS_PhysXWorld::create() GPU enabled PhysX is valid
+[08:04:11] [trace] KLS: KLS_EventHandler::KLS_EventHandler()
+[08:04:11] [trace] KLS: KLS_Level::KLS_Level()
+[08:04:11] [trace] KLS: myLevel_001::myLevel_001()
+[08:04:11] [trace] KLS: myLevel_001::create()
+[08:04:11] [trace] KLS: KLS_Level::create()
+[08:04:11] [trace] KLS: KLS_PhysX_World::KLS_PhysX_World()
+[08:04:11] [trace] KLS: KLS_PhysX_World::initialize()
+[08:04:11] [trace] KLS: KLS_PhysX_World::create()
+[08:04:11] [trace] KLS:  KLS_PhysXWorld::create() GPU enabled PhysX is valid
+[08:04:11] [trace] KLS: KLS_EventHandler::KLS_EventHandler()
+[08:04:11] [trace] KLS: KLS_Level::KLS_Level()
+[08:04:11] [trace] KLS: myLevel_002::myLevel_002()
+[08:04:11] [trace] KLS: myLevel_002::create()
+[08:04:11] [trace] KLS: KLS_Level::create()
+[08:04:11] [trace] KLS: KLS_PhysX_World::KLS_PhysX_World()
+[08:04:11] [trace] KLS: KLS_PhysX_World::initialize()
+[08:04:11] [trace] KLS: KLS_PhysX_World::create()
+[08:04:11] [trace] KLS:  KLS_PhysXWorld::create() GPU enabled PhysX is valid
+[08:04:11] [trace] KLS: KLS_EventHandler::KLS_EventHandler()
+[08:04:11] [trace] KLS: KLS_Level::KLS_Level()
+[08:04:11] [trace] KLS: myLevel_003::myLevel_003()
+[08:04:11] [trace] KLS: myLevel_003::create()
+[08:04:11] [trace] KLS: KLS_Level::create()
+[08:04:11] [trace] KLS: KLS_PhysX_World::KLS_PhysX_World()
+[08:04:11] [trace] KLS: KLS_PhysX_World::initialize()
+[08:04:11] [trace] KLS: KLS_PhysX_World::create()
+[08:04:11] [trace] KLS:  KLS_PhysXWorld::create() GPU enabled PhysX is valid
+[08:04:12] [info] KLS: Entering application run()
+[08:04:12] [trace] KLS: Event : 0 default KLS_EVT_SYSTEM              KLS_SYSTEM_MOUSE_ENTER   
+[08:04:12] [trace] KLS: KLS_Editor::load()
+[08:04:12] [info] KLS: KLS_ResourceManager::loadMeshFromFile(../../../../_media/_assets/_models/_default/light.obj)
+[08:04:12] [info] KLS:   numMeshes 0
+[08:04:12] [info] KLS:   numMeshes 1
+[08:04:12] [info] KLS: KLS_ResourceManager::loadMeshFromFile(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle.obj)
+[08:04:12] [info] KLS:   numMeshes 0
+[08:04:12] [info] KLS:   numMeshes 37
+[08:04:12] [trace] KLS: KLS_PhysX_Object::KLS_PhysX_Object()
+[08:04:12] [trace] KLS: KLS_PhysX_Object::intialize()
+[08:04:12] [trace] KLS: KLS_PhysX_Object::create()
+[08:04:12] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:  createStaticTreeChunk -----------------------------------------------------------------------------------
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A6.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A6.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A6.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A7.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A7.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A7.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A23.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A23.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A23.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A27.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A27.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A27.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A28.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A28.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A28.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(default_texture)
+[08:04:13] [trace] KLS:   KLS_Texture::create(default_texture)
+[08:04:13] [warning] KLS: failed to load texture from disk default_texture
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(default_texture)
+[08:04:13] [trace] KLS:   KLS_Texture::~KLS_Texture(default_texture)
+[08:04:13] [warning] KLS: using default texture for default_texture
+[08:04:13] [warning] KLS: KLS_ResourceManager::getTexture() creating default texture!
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(default_texture 64 64)
+[08:04:13] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 64 64)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(default_texture)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A2.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A2.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A2.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A3.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A3.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A3.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A4.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A4.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A4.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A16.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A16.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A16.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A30.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A30.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A30.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A31.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A31.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A31.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A15.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A15.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A15.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A10.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A10.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A10.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A11.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A11.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A11.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A12.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A12.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A12.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A13.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A13.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A13.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A14.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A14.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A14.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A18.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A18.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A18.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A20.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A20.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A20.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A21.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A21.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A21.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A22.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A22.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A22.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_a24_new.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_a24_new.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_a24_new.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A25.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A25.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A25.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A29.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A29.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A29.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A33.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A33.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A33.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/alternative_wall.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/alternative_wall.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/alternative_wall.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A19.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A19.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A19.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A26.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A26.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A26.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A8.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A8.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A8.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A17.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A17.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A17.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A32.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A32.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A32.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/beam.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/beam.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/beam.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/kitchen_greatfire.jpg)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/kitchen_greatfire.jpg)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/kitchen_greatfire.jpg)
+[08:04:13] [trace] KLS: KLS_OpenGL_FrameBuffer::cleanup()
+[08:04:13] [trace] KLS: KLS_ResourceManager::removeTexture(imguifbo_color)
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(imguifbo_color)
+[08:04:13] [trace] KLS:   KLS_Texture::~KLS_Texture(imguifbo_color)
+[08:04:13] [trace] KLS: KLS_ResourceManager::removeTexture(imguifbo_picker)
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(imguifbo_picker)
+[08:04:13] [trace] KLS:   KLS_Texture::~KLS_Texture(imguifbo_picker)
+[08:04:13] [trace] KLS: KLS_FrameBuffer::cleanup()
+[08:04:13] [trace] KLS: KLS_OpenGL_FrameBuffer::create()
+[08:04:13] [trace] KLS: KLS_FrameBuffer::create()
+[08:04:13] [trace] KLS: KLS_OpenGL_FrameBuffer::finalize()
+[08:04:13] [trace] KLS: KLS_FrameBuffer::finalize()
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(imguifbo_color 992 679)
+[08:04:13] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 992 679)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(imguifbo_color)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(imguifbo_picker 992 679)
+[08:04:13] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 992 679)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(imguifbo_picker)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(imguifbodepthbuffer1 992 679)
+[08:04:13] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 992 679)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(imguifbodepthbuffer1)
+[08:04:13] [warning] KLS: texture imguifbodepthbuffer1 already exists
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_media/_assets/_textures/_gui/Translate.png)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_media/_assets/_textures/_gui/Translate.png)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_media/_assets/_textures/_gui/Translate.png)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_media/_assets/_textures/_gui/Rotate.png)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_media/_assets/_textures/_gui/Rotate.png)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_media/_assets/_textures/_gui/Rotate.png)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_media/_assets/_textures/_gui/Scale.png)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_media/_assets/_textures/_gui/Scale.png)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_media/_assets/_textures/_gui/Scale.png)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_media/_assets/_textures/_gui/Universal.png)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_media/_assets/_textures/_gui/Universal.png)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_media/_assets/_textures/_gui/Universal.png)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_media/_assets/_textures/_gui/Grid.png)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_media/_assets/_textures/_gui/Grid.png)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_media/_assets/_textures/_gui/Grid.png)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(../../../../_media/_assets/_textures/_gui/Skybox.png)
+[08:04:13] [trace] KLS:   KLS_Texture::create(../../../../_media/_assets/_textures/_gui/Skybox.png)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(../../../../_media/_assets/_textures/_gui/Skybox.png)
+[08:04:13] [trace] KLS: KLS_OpenGL_FrameBuffer::cleanup()
+[08:04:13] [trace] KLS: KLS_ResourceManager::removeTexture(imguifbo_color)
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(imguifbo_color)
+[08:04:13] [trace] KLS:   KLS_Texture::~KLS_Texture(imguifbo_color)
+[08:04:13] [trace] KLS: KLS_ResourceManager::removeTexture(imguifbo_picker)
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(imguifbo_picker)
+[08:04:13] [trace] KLS:   KLS_Texture::~KLS_Texture(imguifbo_picker)
+[08:04:13] [trace] KLS: KLS_FrameBuffer::cleanup()
+[08:04:13] [trace] KLS: KLS_OpenGL_FrameBuffer::create()
+[08:04:13] [trace] KLS: KLS_FrameBuffer::create()
+[08:04:13] [trace] KLS: KLS_OpenGL_FrameBuffer::finalize()
+[08:04:13] [trace] KLS: KLS_FrameBuffer::finalize()
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(imguifbo_color 357 493)
+[08:04:13] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 357 493)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(imguifbo_color)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(imguifbo_picker 357 493)
+[08:04:13] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 357 493)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(imguifbo_picker)
+[08:04:13] [trace] KLS:   KLS_Texture::KLS_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::KLS_OpenGL_Texture()
+[08:04:13] [trace] KLS:   KLS_OpenGL_Texture::create(imguifbodepthbuffer1 357 493)
+[08:04:13] [trace] KLS:   KLS_Texture::create(KLS_DEFAULT 357 493)
+[08:04:13] [trace] KLS: KLS_ResourceManager::addTexture(imguifbodepthbuffer1)
+[08:04:13] [warning] KLS: texture imguifbodepthbuffer1 already exists
+[08:04:14] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_PRESSED   X 353 Y 600
+[08:04:14] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_PRESSED   X 353 Y 600
+[08:04:15] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_RELEASED  X 353 Y 600
+[08:04:15] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_RELEASED  X 353 Y 600
+[08:04:15] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_RMOUSE_PRESSED   X 353 Y 600
+[08:04:15] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_RMOUSE_PRESSED   X 353 Y 600
+[08:04:15] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_RMOUSE_RELEASED  X 512 Y 383
+[08:04:15] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_RMOUSE_RELEASED  X 512 Y 383
+[08:04:16] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_RMOUSE_PRESSED   X 512 Y 384
+[08:04:16] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_RMOUSE_PRESSED   X 512 Y 384
+[08:04:16] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_RMOUSE_RELEASED  X 516 Y 384
+[08:04:16] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_RMOUSE_RELEASED  X 516 Y 384
+[08:04:17] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_PRESSED   X 294 Y 85
+[08:04:17] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_PRESSED   X 294 Y 85
+[08:04:18] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_RELEASED  X 294 Y 85
+[08:04:18] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_RELEASED  X 294 Y 85
+[08:04:20] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_PRESSED   X 441 Y 516
+[08:04:20] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_PRESSED   X 441 Y 516
+[08:04:20] [error] KLS: 0 -0 0
+[08:04:20] [error] KLS: 0.0009617192 -0.0077781463 0.0045603174
+[08:04:20] [error] KLS: 0.000961719 -0.007778147 0.004560317
+[08:04:20] [error] KLS: 0.0009617188 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.0009617186 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.00096171844 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.00096171815 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.00096171803 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.00096171786 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.00096171757 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.00096171745 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.0009617173 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.00096171704 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.00096171687 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.0009617167 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.00096171646 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.0009617163 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.0009617161 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.0009617159 -0.007778148 0.0045603164
+[08:04:20] [error] KLS: 0.0018850787 -0.015535353 0.009098807
+[08:04:20] [error] KLS: 0.0018850788 -0.01553535 0.0090988055
+[08:04:20] [error] KLS: 0.0018850788 -0.015535349 0.009098804
+[08:04:20] [error] KLS: 0.0018850788 -0.015535347 0.009098802
+[08:04:20] [error] KLS: 0.0027765615 -0.023325227 0.013647474
+[08:04:20] [error] KLS: 0.00442613 -0.038648296 0.022571346
+[08:04:20] [error] KLS: 0.0044261306 -0.038648292 0.022571342
+[08:04:20] [error] KLS: 0.0044261306 -0.03864829 0.022571336
+[08:04:20] [error] KLS: 0.007061798 -0.06636225 0.038645834
+[08:04:20] [error] KLS: 0.008313992 -0.08150631 0.047402464
+[08:04:20] [error] KLS: 0.008313992 -0.0815063 0.047402468
+[08:04:20] [error] KLS: 0.008313992 -0.081506275 0.04740248
+[08:04:20] [error] KLS: 0.008313992 -0.08150627 0.047402482
+[08:04:20] [error] KLS: 0.008313992 -0.08150627 0.047402494
+[08:04:20] [error] KLS: 0.008313991 -0.08150627 0.047402497
+[08:04:20] [error] KLS: 0.008313991 -0.08150627 0.0474025
+[08:04:20] [error] KLS: 0.008313991 -0.08150627 0.047402512
+[08:04:20] [error] KLS: 0.008313991 -0.08150627 0.047402516
+[08:04:20] [error] KLS: 0.008313991 -0.08150627 0.04740252
+[08:04:20] [error] KLS: 0.009803051 -0.102077045 0.05927683
+[08:04:20] [error] KLS: 0.010285358 -0.10957746 0.06360263
+[08:04:20] [error] KLS: 0.010733607 -0.11704852 0.06791038
+[08:04:20] [error] KLS: 0.011072021 -0.123079695 0.07138748
+[08:04:20] [error] KLS: 0.011769547 -0.13692304 0.07936879
+[08:04:20] [error] KLS: 0.0121029755 -0.14446318 0.0837172
+[08:04:20] [error] KLS: 0.012102978 -0.14446317 0.08371719
+[08:04:20] [error] KLS: 0.012102979 -0.14446315 0.083717175
+[08:04:20] [error] KLS: 0.012642657 -0.15869156 0.091927454
+[08:04:20] [error] KLS: 0.013388115 -0.18827005 0.10903033
+[08:04:21] [error] KLS: 0.013572769 -0.20358391 0.11791312
+[08:04:21] [error] KLS: 0.013511692 -0.23536658 0.13643664
+[08:04:21] [error] KLS: 0.012739455 -0.27029085 0.15697475
+[08:04:21] [error] KLS: 0.011170081 -0.30586985 0.17816086
+[08:04:21] [error] KLS: 0.008364445 -0.34658134 0.20282242
+[08:04:21] [error] KLS: 0.0053867083 -0.37837774 0.22246748
+[08:04:21] [error] KLS: 0.0031122572 -0.3986371 0.23519099
+[08:04:21] [error] KLS: 0.003112266 -0.39863703 0.23519099
+[08:04:21] [error] KLS: 0.0031122698 -0.39863694 0.23519099
+[08:04:21] [error] KLS: 0.0031122735 -0.39863676 0.23519097
+[08:04:21] [error] KLS: 0.00047138048 -0.41934395 0.24838276
+[08:04:21] [error] KLS: -0.0059678606 -0.46163112 0.27599138
+[08:04:21] [error] KLS: -0.012705031 -0.49797893 0.30055565
+[08:04:21] [error] KLS: -0.026685612 -0.5585588 0.34359062
+[08:04:21] [error] KLS: -0.03598902 -0.59178704 0.3685314
+[08:04:21] [error] KLS: -0.037908595 -0.5981274 0.37341377
+[08:04:21] [error] KLS: -0.03790858 -0.59812754 0.3734137
+[08:04:21] [error] KLS: -0.037908576 -0.59812754 0.37341365
+[08:04:21] [error] KLS: -0.03790858 -0.59812754 0.37341362
+[08:04:21] [error] KLS: -0.03790858 -0.59812754 0.37341362
+[08:04:21] [error] KLS: -0.03790858 -0.59812754 0.37341362
+[08:04:21] [error] KLS: -0.04336604 -0.6153375 0.3868824
+[08:04:21] [error] KLS: -0.051456593 -0.63890964 0.40587842
+[08:04:21] [error] KLS: -0.06763439 -0.680502 0.44113916
+[08:04:21] [error] KLS: -0.08443852 -0.7177257 0.47489282
+[08:04:21] [error] KLS: -0.09401041 -0.73679733 0.49311805
+[08:04:21] [error] KLS: -0.10702512 -0.760686 0.51695734
+[08:04:21] [error] KLS: -0.10702516 -0.76068604 0.5169572
+[08:04:21] [error] KLS: -0.10702514 -0.7606861 0.516957
+[08:04:21] [error] KLS: -0.107025094 -0.76068616 0.5169569
+[08:04:21] [error] KLS: -0.107025035 -0.7606861 0.5169567
+[08:04:21] [error] KLS: -0.107025035 -0.7606862 0.5169566
+[08:04:21] [error] KLS: -0.10702504 -0.7606862 0.5169565
+[08:04:21] [error] KLS: -0.107025035 -0.7606862 0.5169563
+[08:04:21] [error] KLS: -0.10702502 -0.7606862 0.51695627
+[08:04:21] [error] KLS: -0.107025 -0.7606862 0.51695627
+[08:04:21] [error] KLS: -0.10702495 -0.7606862 0.51695627
+[08:04:21] [error] KLS: -0.10702495 -0.7606862 0.51695627
+[08:04:21] [error] KLS: -0.13106462 -0.79973334 0.55869395
+[08:04:21] [error] KLS: -0.17856894 -0.8625581 0.63488203
+[08:04:21] [error] KLS: -0.21545206 -0.90191567 0.6900465
+[08:04:21] [error] KLS: -0.23871644 -0.9235633 0.7235399
+[08:04:21] [error] KLS: -0.28571472 -0.9613898 0.7888496
+[08:04:21] [error] KLS: -0.3121085 -0.9797761 0.8244159
+[08:04:21] [error] KLS: -0.3121084 -0.97977597 0.82441574
+[08:04:21] [error] KLS: -0.3121084 -0.97977597 0.8244158
+[08:04:21] [error] KLS: -0.31210837 -0.97977614 0.8244157
+[08:04:21] [error] KLS: -0.31210837 -0.979776 0.8244157
+[08:04:21] [error] KLS: -0.3121084 -0.97977597 0.8244156
+[08:04:21] [error] KLS: -0.31210837 -0.9797761 0.8244155
+[08:04:21] [error] KLS: -0.31210843 -0.97977626 0.8244154
+[08:04:21] [error] KLS: -0.31210837 -0.97977644 0.8244153
+[08:04:21] [error] KLS: -0.31210825 -0.9797765 0.8244151
+[08:04:21] [error] KLS: -0.31210822 -0.9797768 0.824415
+[08:04:21] [error] KLS: -0.31210825 -0.97977704 0.8244151
+[08:04:21] [error] KLS: -0.31210813 -0.9797773 0.82441485
+[08:04:21] [error] KLS: -0.31210807 -0.9797776 0.8244147
+[08:04:21] [error] KLS: -0.31210807 -0.9797776 0.8244147
+[08:04:21] [error] KLS: -0.31210807 -0.9797776 0.8244147
+[08:04:21] [error] KLS: -0.31210807 -0.9797776 0.8244147
+[08:04:22] [error] KLS: -0.31210807 -0.9797776 0.8244147
+[08:04:22] [error] KLS: -0.31210807 -0.9797776 0.8244147
+[08:04:22] [error] KLS: -0.31210807 -0.9797776 0.8244147
+[08:04:22] [error] KLS: -0.31210807 -0.9797776 0.8244147
+[08:04:22] [error] KLS: -0.31210807 -0.9797776 0.8244147
+[08:04:22] [error] KLS: -0.31210807 -0.9797776 0.8244147
+[08:04:22] [error] KLS: -0.3137781 -0.980881 0.8266423
+[08:04:22] [error] KLS: -0.31377804 -0.9808808 0.8266422
+[08:04:22] [error] KLS: -0.313778 -0.9808808 0.8266422
+[08:04:22] [error] KLS: -0.31377807 -0.9808809 0.8266424
+[08:04:22] [error] KLS: -0.313778 -0.9808808 0.8266422
+[08:04:22] [error] KLS: -0.31377807 -0.9808809 0.8266424
+[08:04:22] [error] KLS: -0.313778 -0.9808808 0.8266422
+[08:04:22] [error] KLS: -0.31377807 -0.9808809 0.8266424
+[08:04:22] [error] KLS: -0.313778 -0.9808808 0.8266422
+[08:04:22] [error] KLS: -0.31377807 -0.9808809 0.8266424
+[08:04:22] [error] KLS: -0.313778 -0.9808808 0.8266422
+[08:04:22] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_RELEASED  X 391 Y 557
+[08:04:22] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_RELEASED  X 391 Y 557
+[08:04:23] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_PRESSED   X 361 Y 453
+[08:04:23] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_PRESSED   X 361 Y 453
+[08:04:23] [error] KLS: -0.31377807 -0.9808809 0.8266424
+[08:04:23] [error] KLS: -0.313778 -0.9808808 0.8266422
+[08:04:23] [error] KLS: -0.31377807 -0.9808809 0.8266424
+[08:04:23] [error] KLS: -0.313778 -0.9808808 0.8266422
+[08:04:23] [error] KLS: -0.31377807 -0.9808809 0.8266424
+[08:04:23] [error] KLS: -0.313778 -0.9808808 0.8266422
+[08:04:23] [error] KLS: -0.31377807 -0.9808809 0.8266424
+[08:04:23] [error] KLS: -0.313778 -0.9808808 0.8266422
+[08:04:23] [error] KLS: -0.31377807 -0.9808809 0.8266424
+[08:04:23] [error] KLS: -0.313778 -0.9808808 0.8266422
+[08:04:23] [error] KLS: -0.30809295 -0.968884 0.81977344
+[08:04:23] [error] KLS: -0.3025593 -0.9566651 0.81303144
+[08:04:23] [error] KLS: -0.30255935 -0.9566651 0.8130314
+[08:04:23] [error] KLS: -0.30255935 -0.95666504 0.8130313
+[08:04:23] [error] KLS: -0.30255938 -0.95666486 0.8130313
+[08:04:23] [error] KLS: -0.2817333 -0.905128 0.7870778
+[08:04:23] [error] KLS: -0.27685916 -0.8915964 0.78084743
+[08:04:23] [error] KLS: -0.27213728 -0.8778684 0.77474487
+[08:04:23] [error] KLS: -0.2630833 -0.8496571 0.76283747
+[08:04:23] [error] KLS: -0.2630833 -0.84965736 0.76283747
+[08:04:23] [error] KLS: -0.2630833 -0.8496573 0.76283747
+[08:04:23] [error] KLS: -0.2587418 -0.8351531 0.75701976
+[08:04:24] [error] KLS: -0.25874174 -0.835153 0.7570197
+[08:04:24] [error] KLS: -0.2587417 -0.83515275 0.75701964
+[08:04:24] [error] KLS: -0.25874165 -0.8351526 0.75701964
+[08:04:24] [error] KLS: -0.2587416 -0.83515286 0.75701964
+[08:04:24] [error] KLS: -0.25874156 -0.83515304 0.7570196
+[08:04:24] [error] KLS: -0.2587416 -0.8351531 0.75701946
+[08:04:24] [error] KLS: -0.25874147 -0.8351532 0.75701934
+[08:04:24] [error] KLS: -0.25874144 -0.8351532 0.75701934
+[08:04:24] [error] KLS: -0.25874144 -0.8351532 0.75701934
+[08:04:24] [error] KLS: -0.25874144 -0.8351532 0.75701934
+[08:04:24] [error] KLS: -0.25874144 -0.8351532 0.75701934
+[08:04:24] [error] KLS: -0.25874144 -0.8351532 0.75701934
+[08:04:24] [error] KLS: -0.25874144 -0.8351532 0.75701934
+[08:04:24] [error] KLS: -0.25874144 -0.8351532 0.75701934
+[08:04:24] [error] KLS: -0.25874144 -0.8351532 0.75701934
+[08:04:24] [error] KLS: -0.25874144 -0.8351532 0.75701934
+[08:04:24] [error] KLS: -0.25874144 -0.8351532 0.75701934
+[08:04:24] [error] KLS: -0.25874144 -0.8351532 0.75701934
+[08:04:24] [error] KLS: -0.25874144 -0.8351532 0.75701934
+[08:04:24] [error] KLS: -0.25874144 -0.8351532 0.75701934
+[08:04:24] [error] KLS: -0.24648169 -0.79018694 0.74013984
+[08:04:24] [error] KLS: -0.22176221 -0.67510456 0.7032442
+[08:04:24] [error] KLS: -0.21894634 -0.6591427 0.6986932
+[08:04:24] [error] KLS: -0.21501945 -0.63558364 0.6921823
+[08:04:24] [error] KLS: -0.20927267 -0.59795743 0.6822484
+[08:04:24] [error] KLS: -0.20707683 -0.58243877 0.678303
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.67830294
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:24] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_RELEASED  X 357 Y 478
+[08:04:24] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_RELEASED  X 357 Y 478
+[08:04:25] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_PRESSED   X 391 Y 469
+[08:04:25] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_PRESSED   X 391 Y 469
+[08:04:25] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:25] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:25] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:25] [error] KLS: -0.20707679 -0.58243877 0.6783028
+[08:04:25] [error] KLS: -0.21552677 -0.5796786 0.69369674
+[08:04:25] [error] KLS: -0.21552669 -0.5796785 0.6936966
+[08:04:25] [error] KLS: -0.22000925 -0.5781608 0.7018897
+[08:04:25] [error] KLS: -0.2248368 -0.57648456 0.71073484
+[08:04:26] [error] KLS: -0.23563625 -0.5725744 0.73060656
+[08:04:26] [error] KLS: -0.23563625 -0.57257426 0.7306064
+[08:04:26] [error] KLS: -0.24824743 -0.56772023 0.7539701
+[08:04:26] [error] KLS: -0.264734 -0.5608889 0.78479403
+[08:04:26] [error] KLS: -0.26473397 -0.5608888 0.7847941
+[08:04:26] [error] KLS: -0.2647339 -0.5608888 0.7847941
+[08:04:26] [error] KLS: -0.26473385 -0.5608889 0.784794
+[08:04:26] [error] KLS: -0.26473382 -0.56088895 0.7847939
+[08:04:26] [error] KLS: -0.26473376 -0.5608891 0.78479373
+[08:04:26] [error] KLS: -0.26473373 -0.5608891 0.78479373
+[08:04:26] [error] KLS: -0.27170396 -0.55782914 0.79792917
+[08:04:26] [error] KLS: -0.2917202 -0.5484467 0.83602524
+[08:04:26] [error] KLS: -0.2917202 -0.54844683 0.8360252
+[08:04:26] [error] KLS: -0.3075959 -0.540345 0.8666771
+[08:04:26] [error] KLS: -0.3164333 -0.5355675 0.8839241
+[08:04:26] [error] KLS: -0.3164333 -0.5355675 0.8839239
+[08:04:26] [error] KLS: -0.3164333 -0.5355675 0.8839239
+[08:04:26] [error] KLS: -0.3164333 -0.5355675 0.8839239
+[08:04:26] [error] KLS: -0.3164333 -0.5355675 0.8839239
+[08:04:26] [error] KLS: -0.3164333 -0.5355675 0.8839239
+[08:04:26] [error] KLS: -0.3164333 -0.5355675 0.8839239
+[08:04:26] [error] KLS: -0.3164333 -0.5355675 0.8839239
+[08:04:26] [error] KLS: -0.3164333 -0.5355675 0.8839239
+[08:04:26] [error] KLS: -0.3164333 -0.5355675 0.8839239
+[08:04:26] [error] KLS: -0.3164333 -0.5355675 0.8839239
+[08:04:26] [error] KLS: -0.3164333 -0.5355675 0.8839239
+[08:04:26] [error] KLS: -0.3164333 -0.5355675 0.8839239
+[08:04:26] [error] KLS: -0.34798235 -0.51682717 0.94672126
+[08:04:26] [error] KLS: -0.35697448 -0.51096755 0.9650132
+[08:04:26] [error] KLS: -0.35697448 -0.5109676 0.9650132
+[08:04:26] [error] KLS: -0.35697442 -0.5109677 0.9650131
+[08:04:26] [error] KLS: -0.35697442 -0.5109676 0.9650131
+[08:04:26] [error] KLS: -0.3569744 -0.51096755 0.96501297
+[08:04:26] [error] KLS: -0.35697436 -0.51096755 0.96501285
+[08:04:26] [error] KLS: -0.35697433 -0.51096755 0.9650127
+[08:04:26] [error] KLS: -0.35697424 -0.5109675 0.96501243
+[08:04:26] [error] KLS: -0.3569742 -0.51096755 0.96501243
+[08:04:26] [error] KLS: -0.35697412 -0.51096755 0.9650123
+[08:04:26] [error] KLS: -0.35697407 -0.5109675 0.96501213
+[08:04:26] [error] KLS: -0.356974 -0.5109675 0.965012
+[08:04:26] [error] KLS: -0.356974 -0.5109674 0.965012
+[08:04:26] [error] KLS: -0.35697395 -0.5109673 0.96501195
+[08:04:26] [error] KLS: -0.366543 -0.5044588 0.98469347
+[08:04:26] [error] KLS: -0.36654305 -0.5044588 0.98469347
+[08:04:26] [error] KLS: -0.36654308 -0.50445884 0.9846934
+[08:04:26] [error] KLS: -0.36654305 -0.50445884 0.98469335
+[08:04:26] [error] KLS: -0.36654308 -0.50445884 0.9846933
+[08:04:26] [error] KLS: -0.36654308 -0.5044589 0.9846932
+[08:04:26] [error] KLS: -0.36654305 -0.5044589 0.984693
+[08:04:26] [error] KLS: -0.36654305 -0.504459 0.98469293
+[08:04:26] [error] KLS: -0.366543 -0.5044591 0.98469293
+[08:04:26] [error] KLS: -0.3665429 -0.50445914 0.984693
+[08:04:26] [error] KLS: -0.36654285 -0.50445926 0.984693
+[08:04:26] [error] KLS: -0.36654282 -0.5044593 0.984693
+[08:04:26] [error] KLS: -0.36654285 -0.5044593 0.9846931
+[08:04:26] [error] KLS: -0.3875306 -0.48912984 1.0287216
+[08:04:26] [error] KLS: -0.43892223 -0.4444095 1.1427966
+[08:04:26] [error] KLS: -0.47511858 -0.4050541 1.2305715
+[08:04:26] [error] KLS: -0.491345 -0.38462248 1.272748
+[08:04:27] [error] KLS: -0.52521276 -0.33442965 1.368914
+[08:04:27] [error] KLS: -0.51348794 -0.35315254 1.3341328
+[08:04:27] [error] KLS: -0.51348776 -0.35315257 1.3341327
+[08:04:27] [error] KLS: -0.5240318 -0.33639002 1.3653264
+[08:04:27] [error] KLS: -0.5240318 -0.33639002 1.3653264
+[08:04:27] [error] KLS: -0.5240318 -0.33639002 1.3653264
+[08:04:27] [error] KLS: -0.5240318 -0.33639002 1.3653264
+[08:04:27] [error] KLS: -0.5240318 -0.33639002 1.3653264
+[08:04:27] [error] KLS: -0.5240318 -0.33639002 1.3653264
+[08:04:27] [error] KLS: -0.5240318 -0.33639002 1.3653264
+[08:04:27] [error] KLS: -0.53460836 -0.3181649 1.398223
+[08:04:27] [error] KLS: -0.552186 -0.28397208 1.457474
+[08:04:27] [error] KLS: -0.55218595 -0.283972 1.4574741
+[08:04:27] [error] KLS: -0.57068765 -0.24063624 1.5287796
+[08:04:27] [error] KLS: -0.5792981 -0.2166606 1.5667601
+[08:04:27] [error] KLS: -0.5873725 -0.19087373 1.6066532
+[08:04:27] [error] KLS: -0.58296686 -0.20541209 1.5842744
+[08:04:27] [error] KLS: -0.5902023 -0.18082343 1.6219661
+[08:04:27] [error] KLS: -0.6023551 -0.12781224 1.7009633
+[08:04:27] [error] KLS: -0.6070384 -0.09945686 1.7422543
+[08:04:27] [error] KLS: -0.6106263 -0.070008494 1.7846375
+[08:04:27] [error] KLS: -0.6140671 -0.008473236 1.8722398
+[08:04:27] [error] KLS: -0.61406696 -0.0084732 1.8722398
+[08:04:27] [error] KLS: -0.613737 0.023170026 1.9171317
+[08:04:27] [error] KLS: -0.6086723 0.08732325 2.008746
+[08:04:27] [error] KLS: -0.60393894 0.11902162 2.054692
+[08:04:27] [error] KLS: -0.6094524 0.080865204 1.9994544
+[08:04:27] [error] KLS: -0.599943 0.14009033 2.0856164
+[08:04:27] [error] KLS: -0.5855842 0.19692758 2.1711476
+[08:04:27] [error] KLS: -0.59582996 0.1587006 2.1132483
+[08:04:27] [error] KLS: -0.58892995 0.18542163 2.1535404
+[08:04:27] [error] KLS: -0.5810618 0.21134421 2.193455
+[08:04:27] [error] KLS: -0.56275004 0.2603789 2.271757
+[08:04:27] [error] KLS: -0.5524931 0.2833255 2.3099484
+[08:04:27] [error] KLS: -0.5416466 0.30512676 2.3473446
+[08:04:27] [error] KLS: -0.54164654 0.3051268 2.3473446
+[08:04:27] [error] KLS: -0.54164654 0.3051268 2.3473446
+[08:04:27] [error] KLS: -0.54164654 0.3051268 2.3473446
+[08:04:27] [error] KLS: -0.54164654 0.3051268 2.3473446
+[08:04:27] [error] KLS: -0.54164654 0.3051268 2.3473446
+[08:04:27] [error] KLS: -0.54164654 0.3051268 2.3473446
+[08:04:27] [error] KLS: -0.54164654 0.3051268 2.3473446
+[08:04:27] [error] KLS: -0.54164654 0.3051268 2.3473446
+[08:04:27] [error] KLS: -0.54164654 0.3051268 2.3473446
+[08:04:27] [error] KLS: -0.54164654 0.3051268 2.3473446
+[08:04:27] [error] KLS: -0.54164654 0.3051268 2.3473446
+[08:04:27] [error] KLS: -0.5184664 0.34540144 2.4198394
+[08:04:27] [error] KLS: -0.5064349 0.36368594 2.4544914
+[08:04:27] [error] KLS: -0.50643486 0.36368588 2.4544911
+[08:04:27] [error] KLS: -0.49419758 0.38082042 2.4881327
+[08:04:27] [error] KLS: -0.49419752 0.38082045 2.4881327
+[08:04:27] [error] KLS: -0.48170832 0.39699695 2.5210667
+[08:04:27] [error] KLS: -0.48190185 0.39675528 2.5205655
+[08:04:27] [error] KLS: -0.45834926 0.4242524 2.5795643
+[08:04:27] [error] KLS: -0.48196954 0.39667058 2.5203896
+[08:04:27] [error] KLS: -0.47085693 0.41010773 2.548697
+[08:04:27] [error] KLS: -0.45963255 0.42284557 2.5764408
+[08:04:27] [error] KLS: -0.4596325 0.42284566 2.5764406
+[08:04:27] [error] KLS: -0.44857997 0.4346487 2.6030245
+[08:04:27] [error] KLS: -0.44858 0.43464875 2.6030242
+[08:04:28] [error] KLS: -0.4485799 0.43464875 2.603024
+[08:04:28] [error] KLS: -0.44857976 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [error] KLS: -0.4485798 0.43464863 2.603024
+[08:04:28] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_RELEASED  X 406 Y 549
+[08:04:28] [trace] KLS: Event : 0 default KLS_EVT_MOUSE               KLS_EVT_LMOUSE_RELEASED  X 406 Y 549
+[08:04:28] [trace] KLS: Event : 0 default KLS_EVT_SYSTEM              KLS_SYSTEM_MOUSE_EXIT    
+[08:04:28] [trace] KLS: Event : 0 default KLS_EVT_SYSTEM              KLS_SYSTEM_MOUSE_EXIT    
+[08:04:29] [trace] KLS: Event : 0 default KLS_EVT_SYSTEM              KLS_SYSTEM_MOUSE_ENTER   
+[08:04:29] [trace] KLS: Event : 0 default KLS_EVT_SYSTEM              KLS_SYSTEM_MOUSE_ENTER   
+[08:04:29] [trace] KLS: Event : 0 default KLS_EVT_SYSTEM              KLS_SYSTEM_MOUSE_EXIT    
+[08:04:29] [trace] KLS: Event : 0 default KLS_EVT_SYSTEM              KLS_SYSTEM_MOUSE_EXIT    
+[08:04:29] [trace] KLS: Event : 0 default KLS_EVT_SYSTEM              KLS_SYSTEM_CLOSE         
+[08:04:29] [trace] KLS: Event : 0 default KLS_EVT_SYSTEM              KLS_SYSTEM_CLOSE         
+[08:04:29] [info] KLS: Exiting application run()
+[08:04:29] [trace] KLS: myApp::cleanup()
+[08:04:29] [trace] KLS: KLS_Application::cleanup()
+[08:04:29] [trace] KLS: KLS_LevelManager::cleanup()
+[08:04:29] [trace] KLS: KLS_LevelManager::destroyAllLevels()
+[08:04:29] [trace] KLS: KLS_Editor::cleanup()
+[08:04:29] [trace] KLS: KLS_Level::cleanup()
+[08:04:29] [trace] KLS: KLS_PhysX_World::KLS_PhysX_World()
+[08:04:29] [trace] KLS: KLS_PhysX_World::~KLS_PhysX_World()
+[08:04:29] [trace] KLS: KLS_Editor::~KLS_Editor()
+[08:04:29] [trace] KLS: KLS_Level::~KLS_Level()
+[08:04:29] [trace] KLS: KLS_EventHandler::~KLS_EventHandler()
+[08:04:29] [trace] KLS: myLevel_001::cleanup()
+[08:04:29] [trace] KLS: KLS_Level::cleanup()
+[08:04:29] [trace] KLS: KLS_PhysX_World::KLS_PhysX_World()
+[08:04:29] [trace] KLS: KLS_PhysX_World::~KLS_PhysX_World()
+[08:04:29] [trace] KLS: myLevel_001::~myLevel_001()
+[08:04:29] [trace] KLS: KLS_Level::~KLS_Level()
+[08:04:29] [trace] KLS: KLS_EventHandler::~KLS_EventHandler()
+[08:04:29] [trace] KLS: myLevel_002::cleanup()
+[08:04:29] [trace] KLS: KLS_Level::cleanup()
+[08:04:29] [trace] KLS: KLS_PhysX_World::KLS_PhysX_World()
+[08:04:29] [trace] KLS: KLS_PhysX_World::~KLS_PhysX_World()
+[08:04:29] [trace] KLS: myLevel_002::~myLevel_002()
+[08:04:29] [trace] KLS: KLS_Level::~KLS_Level()
+[08:04:29] [trace] KLS: KLS_EventHandler::~KLS_EventHandler()
+[08:04:29] [trace] KLS: myLevel_003::cleanup()
+[08:04:29] [trace] KLS: KLS_Level::cleanup()
+[08:04:29] [trace] KLS: KLS_PhysX_World::KLS_PhysX_World()
+[08:04:29] [trace] KLS: KLS_PhysX_World::~KLS_PhysX_World()
+[08:04:29] [trace] KLS: myLevel_003::~myLevel_003()
+[08:04:29] [trace] KLS: KLS_Level::~KLS_Level()
+[08:04:29] [trace] KLS: KLS_EventHandler::~KLS_EventHandler()
+[08:04:29] [trace] KLS: KLS_LevelManager::~KLS_LevelManager()
+[08:04:29] [trace] KLS: KLS_PhysX::cleanup()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::onRelease()
+[08:04:29] [trace] KLS: KLS_PhysX::~KLS_PhysX()
+[08:04:29] [trace] KLS: KLS_ImGui::cleanup()
+[08:04:29] [trace] KLS: KLS_ImGui::~KLS_ImGui()
+[08:04:29] [trace] KLS: KLS_OpenGL_Driver::cleanup()
+[08:04:29] [trace] KLS: KLS_Driver::cleanup()
+[08:04:29] [trace] KLS: KLS_FrameBufferManager::cleanup()
+[08:04:29] [trace] KLS: KLS_OpenGL_FrameBuffer::cleanup()
+[08:04:29] [trace] KLS: KLS_ResourceManager::removeTexture(fbo0_color)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(fbo0_color)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(fbo0_color)
+[08:04:29] [trace] KLS: KLS_ResourceManager::removeTexture(fbo0_picker)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(fbo0_picker)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(fbo0_picker)
+[08:04:29] [trace] KLS: KLS_FrameBuffer::cleanup()
+[08:04:29] [trace] KLS: KLS_OpenGL_FrameBuffer::~KLS_OpenGL_FrameBuffer()
+[08:04:29] [trace] KLS: KLS_FrameBuffer::~KLS_FrameBuffer()
+[08:04:29] [trace] KLS: KLS_OpenGL_FrameBuffer::cleanup()
+[08:04:29] [trace] KLS: KLS_ResourceManager::removeTexture(imguifbo_color)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(imguifbo_color)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(imguifbo_color)
+[08:04:29] [trace] KLS: KLS_ResourceManager::removeTexture(imguifbo_picker)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(imguifbo_picker)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(imguifbo_picker)
+[08:04:29] [trace] KLS: KLS_FrameBuffer::cleanup()
+[08:04:29] [trace] KLS: KLS_OpenGL_FrameBuffer::~KLS_OpenGL_FrameBuffer()
+[08:04:29] [trace] KLS: KLS_FrameBuffer::~KLS_FrameBuffer()
+[08:04:29] [trace] KLS: KLS_OpenGL_FrameBuffer::cleanup()
+[08:04:29] [trace] KLS: KLS_ResourceManager::removeTexture(fbo1_color)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(fbo1_color)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(fbo1_color)
+[08:04:29] [trace] KLS: KLS_ResourceManager::removeTexture(fbo1_picker)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(fbo1_picker)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(fbo1_picker)
+[08:04:29] [trace] KLS: KLS_FrameBuffer::cleanup()
+[08:04:29] [trace] KLS: KLS_OpenGL_FrameBuffer::~KLS_OpenGL_FrameBuffer()
+[08:04:29] [trace] KLS: KLS_FrameBuffer::~KLS_FrameBuffer()
+[08:04:29] [trace] KLS: KLS_OpenGL_FrameBuffer::cleanup()
+[08:04:29] [trace] KLS: KLS_ResourceManager::removeTexture(reflective_color)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(reflective_color)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(reflective_color)
+[08:04:29] [trace] KLS: KLS_FrameBuffer::cleanup()
+[08:04:29] [trace] KLS: KLS_OpenGL_FrameBuffer::~KLS_OpenGL_FrameBuffer()
+[08:04:29] [trace] KLS: KLS_FrameBuffer::~KLS_FrameBuffer()
+[08:04:29] [trace] KLS: KLS_OpenGL_FrameBuffer::cleanup()
+[08:04:29] [trace] KLS: KLS_ResourceManager::removeTexture(refractive_color)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(refractive_color)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(refractive_color)
+[08:04:29] [trace] KLS: KLS_FrameBuffer::cleanup()
+[08:04:29] [trace] KLS: KLS_OpenGL_FrameBuffer::~KLS_OpenGL_FrameBuffer()
+[08:04:29] [trace] KLS: KLS_FrameBuffer::~KLS_FrameBuffer()
+[08:04:29] [trace] KLS: KLS_FullscreenQuad::~KLS_FullscreenQuad
+[08:04:29] [trace] KLS: KLS_FrameBufferManager::~KLS_FrameBufferManager()
+[08:04:29] [trace] KLS: KLS_ResourceManager::cleanup()
+[08:04:29] [trace] KLS: KLS_ResourceManager::removeAllCubemaps()
+[08:04:29] [trace] KLS: KLS_ResourceManager::removeAllTextures()
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/alternative_wall.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/alternative_wall.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/beam.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/beam.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A10.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A10.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A11.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A11.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A12.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A12.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A13.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A13.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A14.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A14.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A15.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A15.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A16.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A16.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A17.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A17.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A18.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A18.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A19.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A19.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A2.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A2.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A20.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A20.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A21.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A21.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A22.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A22.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A23.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A23.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A25.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A25.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A26.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A26.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A27.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A27.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A28.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A28.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A29.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A29.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A3.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A3.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A30.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A30.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A31.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A31.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A32.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A32.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A33.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A33.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A4.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A4.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A6.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A6.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A7.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A7.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A8.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_A8.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_a24_new.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/castle_a24_new.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/kitchen_greatfire.jpg)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_Media/_Assets/_Models/___Converted/_Buildings/Castle/kitchen_greatfire.jpg)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_media/_assets/_textures/_gui/Grid.png)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_media/_assets/_textures/_gui/Grid.png)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_media/_assets/_textures/_gui/Rotate.png)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_media/_assets/_textures/_gui/Rotate.png)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_media/_assets/_textures/_gui/Scale.png)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_media/_assets/_textures/_gui/Scale.png)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_media/_assets/_textures/_gui/Skybox.png)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_media/_assets/_textures/_gui/Skybox.png)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_media/_assets/_textures/_gui/Translate.png)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_media/_assets/_textures/_gui/Translate.png)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(../../../../_media/_assets/_textures/_gui/Universal.png)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(../../../../_media/_assets/_textures/_gui/Universal.png)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(default_texture)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(default_texture)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(fbo0depthbuffer1)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(fbo0depthbuffer1)
+[08:04:29] [trace] KLS:   KLS_OpenGL_Texture::~KLS_OpenGL_Texture(imguifbodepthbuffer1)
+[08:04:29] [trace] KLS:   KLS_Texture::~KLS_Texture(imguifbodepthbuffer1)
+[08:04:29] [trace] KLS: KLS_ResourceManager::~KLS_ResourceManager()
+[08:04:29] [trace] KLS: KLS_OpenGL_Driver::~KLS_OpenGL_Driver()
+[08:04:29] [trace] KLS: KLS_Driver::~KLS_Driver()
+[08:04:29] [trace] KLS: KLS_EventHandler::~KLS_EventHandler()
+[08:04:29] [trace] KLS: KLS_Window::cleanup()
+[08:04:29] [trace] KLS: KLS_Window::~KLS_Window()
+[08:04:29] [trace] KLS: myApp::~myApp()
+[08:04:29] [trace] KLS: KLS_Application::~KLS_Application()
+[08:04:29] [trace] KLS: KLS_EventHandler::~KLS_EventHandler()
+[08:04:29] [info] KLS: Logger destroyed

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{af6f5159-1338-4522-8552-4566f4cb6454}</ProjectGuid>
+    <RootNamespace>KLSGameEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>KLSGameEngine_debug</TargetName>
+    <IncludePath>..\..\_Externals\yaml-cpp-master\include;..\..\_Externals\ImGuizmo-master;..\_KLS_Core\KLS_Editor\_Include;..\_KLS_Core\_KLS_PhysX\_Include;..\_KLS_Core\_KLS_ECS\_Include;..\_KLS_Core\_KLS_ImGui\_Include;..\_KLS_Core\_KLS_Math\_Include;..\_KLS_Core\_KLS_Application\_Include;..\_KLS_Core\_KLS_Driver\_Include;..\_KLS_OpenGL_Driver\_Include;..\..\_Externals\physx\PhysX-main\physx\include;..\..\_Externals\entt\single_include;..\..\_Externals\glad\glad;..\..\_Externals\assimp\assimp-5.0.1\include;..\..\_Externals\stb;..\..\_Externals\glad;..\..\_Externals\cmake-imgui\imgui\backends;..\..\_Externals\cmake-imgui\imgui;..\..\_Externals\glm;..\..\_Externals\spdlog\_Include;..\..\_Externals\glfw\_Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\_Externals\yaml-cpp-master\_Lib;..\..\_Externals\physx\PhysX-main\physx\bin\win.x86_64.vc143.mt\debug;..\..\_Externals\assimp\_USE_THESE;..\..\_Externals\cmake-imgui\_Lib;..\..\_Externals\spdlog\_Lib;..\..\_Externals\glfw\_Lib;$(LibraryPath)</LibraryPath>
+    <OutDir>..\..\_Examples\_Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>KLSGameEngine</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>KLSGameEngine</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>KLSGameEngine</TargetName>
+    <IncludePath>..\..\_Externals\yaml-cpp-master\include;..\..\_Externals\ImGuizmo-master;..\_KLS_Core\KLS_Editor\_Include;..\_KLS_Core\_KLS_PhysX\_Include;..\_KLS_Core\_KLS_ECS\_Include;..\_KLS_Core\_KLS_ImGui\_Include;..\_KLS_Core\_KLS_Math\_Include;..\_KLS_Core\_KLS_Application\_Include;..\_KLS_Core\_KLS_Driver\_Include;..\_KLS_OpenGL_Driver\_Include;..\..\_Externals\physx\PhysX-main\physx\include;..\..\_Externals\entt\single_include;..\..\_Externals\glad\glad;..\..\_Externals\assimp\assimp-5.0.1\include;..\..\_Externals\stb;..\..\_Externals\glad;..\..\_Externals\cmake-imgui\imgui\backends;..\..\_Externals\cmake-imgui\imgui;..\..\_Externals\glm;..\..\_Externals\spdlog\_Include;..\..\_Externals\glfw\_Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\_Externals\yaml-cpp-master\_Lib;..\..\_Externals\physx\PhysX-main\physx\bin\win.x86_64.vc143.mt\checked;..\..\_Externals\assimp\_USE_THESE;..\..\_Externals\cmake-imgui\_Lib;..\..\_Externals\spdlog\_Lib;..\..\_Externals\glfw\_Lib;$(LibraryPath)</LibraryPath>
+    <OutDir>..\..\_Examples\_Bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;KLSGAMEENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;KLSGAMEENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING;_DEBUG;KLSGAMEENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4251;4275</DisableSpecificWarnings>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>yaml-cppd.lib;PhysX_64.lib;PhysXCommon_64.lib;PhysXExtensions_static_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXVehicle_static_64.lib;PhysXCooking_64.lib;PhysXFoundation_64.lib;PhysXPvdSDK_static_64.lib;assimp-vc142-mtd.lib;spdlogd.lib;glfw3_debug.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>..\__Lib\$(TargetName).lib</ImportLibrary>
+      <DelayLoadDLLs>PhysX_64.dll;PhysXCommon_64.dll;PhysXCooking_64.dll;PhysXDevice64.dll;PhysXFoundation_64.dll;PhysXGpu_64.dll;PVDRuntime_64.dll</DelayLoadDLLs>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING;NDEBUG;KLSGAMEENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4251;4275</DisableSpecificWarnings>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>yaml-cpp.lib;PhysX_64.lib;PhysXCommon_64.lib;PhysXExtensions_static_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXVehicle_static_64.lib;PhysXCooking_64.lib;PhysXFoundation_64.lib;PhysXPvdSDK_static_64.lib;assimp-vc142-mt.lib;spdlog.lib;glfw3.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>..\__Lib\$(TargetName).lib</ImportLibrary>
+      <DelayLoadDLLs>PhysX_64.dll;PhysXCommon_64.dll;PhysXCooking_64.dll;PhysXDevice64.dll;PhysXFoundation_64.dll;PhysXGpu_64.dll;PVDRuntime_64.dll</DelayLoadDLLs>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\2d.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\2d.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\2d_texture.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\2d_texture.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\animatedmesh.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\animatedmesh.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\bumpmap.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\bumpmap.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\color.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\color.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\infiniteplane - Copy.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\infiniteplane - Copy.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\infiniteplane.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\infiniteplane.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\instanced.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\instanced.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\normals.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\normals.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\particles.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\particles.gs" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\particles.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\skybox.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\skybox.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\sun.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\sun.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\terrain.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\terrain.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\terrain_height.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\terrain_height.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\textured.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\textured.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\triplaner.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\triplaner.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\uv.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\uv.vert" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\water.frag" />
+    <None Include="..\..\..\..\_Media\_Assets\_Shaders\_OpenGL\_Default\water.vert" />
+    <None Include="..\..\_Examples\_Bin\_Media\_Assets\_Shaders\_OpenGL\_PostEffects\2d_greyscale.frag" />
+    <None Include="..\..\_Examples\_Bin\_Media\_Assets\_Shaders\_OpenGL\_PostEffects\2d_greyscale.vert" />
+    <None Include="..\..\_Examples\_Bin\_Media\_Assets\_Shaders\_OpenGL\_PostEffects\2d_inverted.frag" />
+    <None Include="..\..\_Examples\_Bin\_Media\_Assets\_Shaders\_OpenGL\_PostEffects\2d_inverted.vert" />
+    <None Include="..\..\_Examples\_Bin\_Media\_Assets\_Shaders\_OpenGL\_PostEffects\fullscreenquad.frag" />
+    <None Include="..\..\_Examples\_Bin\_Media\_Assets\_Shaders\_OpenGL\_PostEffects\fullscreenquad.vert" />
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\_Externals\cmake-imgui\imgui\backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\..\_Externals\cmake-imgui\imgui\backends\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\..\_Externals\cmake-imgui\imgui\imgui.cpp" />
+    <ClCompile Include="..\..\_Externals\cmake-imgui\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\..\_Externals\cmake-imgui\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\..\_Externals\cmake-imgui\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\..\_Externals\cmake-imgui\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="..\..\_Externals\glad\glad\gl.c" />
+    <ClCompile Include="..\..\_Externals\ImGuizmo-master\ImGuizmo.cpp" />
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor.cpp" />
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI.cpp" />
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI_Content.cpp" />
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI_Entity.cpp" />
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI_LevelInfo.cpp" />
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI_Material.cpp" />
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI_Menus.cpp" />
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI_PhysX.cpp" />
+    <ClCompile Include="..\_KLS_Core\KLS_Editor\_Source\KLS_Editor_GUI_Resource.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_Application.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_EventHandler.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_File.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_Geometry.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_KeyMap.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_Level.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_LevelManager.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_Level_Creation.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_Logger.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_String.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_Timer.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_UUID.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_Window.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_AnimatedMesh.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Animation.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Animator.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_AssimpHelpers.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Buffer.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Camera.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Camera_Editor.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Camera_FPS.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Driver_Render.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_FrameBuffer.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_FrameBufferManager.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_FullscreenQuad.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Material.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Mesh.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_MeshBuffer.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Pipeline.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_ResourceManager.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_ResourceManager_AnimatedMesh.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_ResourceManager_Creation.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_ResourceManager_LoadDefaults.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_ResourceManager_Mesh.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_ResourceManager_Pipeline.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_ResourceManager_Texture.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Skeleton.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Texture.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_VertexBufferLayout.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\_KLS_Driver.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_Components.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_ECS.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_ECS_System.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_Entity.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_Level_Serialize.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\_KLS_ECS_Systems.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_ImGui\_Source\KLS_ImGui.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_ImGui\_Source\KLS_ImGui_Controls.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Math\_Source\KLS_AABBBox.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Math\_Source\KLS_BoundingSphere.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Math\_Source\KLS_Frustum.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Math\_Source\KLS_Line.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Math\_Source\KLS_Math.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_Math\_Source\KLS_Transform.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX_Object.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX_Object_Character.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX_Object_Dynamic.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX_Object_Static.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX_World.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX_World_Callbacks.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX_World_Creation.cpp" />
+    <ClCompile Include="..\_KLS_OpenGL_Driver\_Source\KLS_OpenGL_Buffer.cpp" />
+    <ClCompile Include="..\_KLS_OpenGL_Driver\_Source\KLS_OpenGL_Driver_Render.cpp" />
+    <ClCompile Include="..\_KLS_OpenGL_Driver\_Source\KLS_OpenGL_FrameBuffer.cpp" />
+    <ClCompile Include="..\_KLS_OpenGL_Driver\_Source\KLS_OpenGL_Pipeline.cpp" />
+    <ClCompile Include="..\_KLS_OpenGL_Driver\_Source\KLS_OpenGL_Texture.cpp" />
+    <ClCompile Include="..\_KLS_OpenGL_Driver\_Source\KLS_OpenGL_Texture_Cubemap.cpp" />
+    <ClCompile Include="..\_KLS_OpenGL_Driver\_Source\_KLS_OpenGL_Driver.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\backends\imgui_impl_glfw.h" />
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\backends\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\backends\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\imconfig.h" />
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\imgui.h" />
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\imgui_internal.h" />
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\imstb_textedit.h" />
+    <ClInclude Include="..\..\_Externals\cmake-imgui\imgui\imstb_truetype.h" />
+    <ClInclude Include="..\..\_Externals\ImGuizmo-master\ImGuizmo.h" />
+    <ClInclude Include="..\_KLS_Core\KLS_Editor\_Include\KLS_Editor.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Application.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_ApplicationCreationInfo.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Colors.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Event.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_EventHandler.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_File.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Geometry.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_KeyCodes.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_KeyMap.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Level.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_LevelManager.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Logger.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Message.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_String.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Timer.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_UUID.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_Window.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\_KLS_Defines.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\_KLS_Enums.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\_KLS_Includes.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_AnimatedMesh.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Animation.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_AnimationEnd.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Animator.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_AssimpHelpers.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Bone.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Buffer.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Camera.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Camera_Editor.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Camera_FPS.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_FrameBuffer.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_FrameBufferManager.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_FullscreenQuad.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Material.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Mesh.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_MeshBuffer.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Pipeline.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_ResourceManager.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Skeleton.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Texture.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_Texture_Cubemap.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_UniformData.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_VertexBufferLayout.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\_KLS_Driver.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\_KLS_ECS_Components.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\KLS_ECS.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\KLS_ECS_System.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\KLS_Entity.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\_KLS_ECS_Systems.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ImGui\_Include\KLS_ImGui.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_AABBBox.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_BoundingSphere.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_Frustum.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_Line.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_Math.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_Plane.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_Transform.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\KLS_PhysX_Object.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\KLS_PhysX_ObjectCreationParams.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\KLS_PhysX_Object_Character.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\KLS_PhysX_Object_Dynamic.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\KLS_PhysX_Object_Static.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\KLS_PhysX_Object_Tree.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\KLS_PhysX_World.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\_KLS_PhysX.h" />
+    <ClInclude Include="..\_KLS_OpenGL_Driver\_Include\KLS_OpenGL_Buffer.h" />
+    <ClInclude Include="..\_KLS_OpenGL_Driver\_Include\KLS_OpenGL_FrameBuffer.h" />
+    <ClInclude Include="..\_KLS_OpenGL_Driver\_Include\KLS_OpenGL_Pipeline.h" />
+    <ClInclude Include="..\_KLS_OpenGL_Driver\_Include\KLS_OpenGL_Texture.h" />
+    <ClInclude Include="..\_KLS_OpenGL_Driver\_Include\KLS_OpenGL_Texture_Cubemap.h" />
+    <ClInclude Include="..\_KLS_OpenGL_Driver\_Include\_KLS_OpenGL_Driver.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
