@@ -69,7 +69,7 @@ namespace KLS
         if (!m_Selected.isNull())
         {
             // remember where the entity currently is
-            auto& transform = m_Selected.getComponent<KLS_COMPONENT_TRANSFORM>().m_Transform;
+            auto& transform = m_Selected.getComponent<KLS_COMPONENT_INFO>().Transform;
             glm::mat4 mat = m_Selected.getAbsoluteTransform().getModelMatrix();
             glm::vec3 lastpos = glm::vec3(mat[3][0], mat[3][1], mat[3][2]);
             glm::vec3 lastscale = glm::vec3(glm::length(glm::vec3(mat[0])), glm::length(glm::vec3(mat[1])), glm::length(glm::vec3(mat[2])));
@@ -141,7 +141,7 @@ namespace KLS
             if (m_Selected.hasComponent<KLS_COMPONENT_PHYSXOBJECT>())
             {
                 auto& po = m_Selected.getComponent<KLS_COMPONENT_PHYSXOBJECT>();
-                if (po.m_PhysxObject)
+                if (po.PhysXObject)
                 {
                     if (scalechanged)
                     {
@@ -149,17 +149,17 @@ namespace KLS
                         if (m_Selected.hasComponent<KLS_COMPONENT_MESH>())
                         {
                             auto& mesh = m_Selected.getComponent< KLS_COMPONENT_MESH>();
-                            if (mesh.m_Mesh)
-                                mesh.m_Mesh->recalculateNormals();
+                            if (mesh.Mesh)
+                                mesh.Mesh->recalculateNormals();
                         }
                     }
                     if (positionchanged)
                     {
-                        po.m_PhysxObject->setPosition(m_Selected.getTransform().getPosition());
+                        po.PhysXObject->setPosition(m_Selected.getTransform().getPosition());
                     }
                     if (rotationchanged)
                     {
-                        po.m_PhysxObject->setRotation(m_Selected.getTransform().getRotation());
+                        po.PhysXObject->setRotation(m_Selected.getTransform().getRotation());
                     }
                 }
             }

@@ -27,7 +27,7 @@ namespace KLS
         ImGui::Begin("Entities");
 
         KLS_ECS* ecs = getECS();
-        auto view = getECS()->getRegistry().view<KLS_COMPONENT_NAME>(entt::exclude<KLS_COMPONENT_PARENT>);
+        auto view = getECS()->getRegistry().view<KLS_COMPONENT_INFO>(entt::exclude<KLS_COMPONENT_PARENT>);
 
         // Create a vector to store entities from the view
         std::vector<entt::entity> entities(view.begin(), view.end());
@@ -50,17 +50,15 @@ namespace KLS
 
     void KLS_Editor::drawEntityTree(KLS_Entity e)
     {
-        KLS_COMPONENT_ID id = e.getComponent<KLS_COMPONENT_ID>();
-        KLS_COMPONENT_NAME name = e.getComponent<KLS_COMPONENT_NAME>();
-        KLS_COMPONENT_TRANSFORM t = e.getComponent<KLS_COMPONENT_TRANSFORM>();
+        auto& info  = e.getComponent<KLS_COMPONENT_INFO>();
 
         // Display the entity in a TreeNode
-        bool selected = (id.Id == m_Selected.getId());
+        bool selected = (info.Id == m_Selected.getId());
         if (selected)  ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(1.0f, 1.0f, 0.0f, 1.0f));
         //        bool nodeOpen = ImGui::TreeNode((void*)(intptr_t)id.Id, "ID: %d Name: %s %f", id.Id, name.m_Name.c_str(), t.m_Transform.getScale().x);
-        bool nodeOpen = ImGui::TreeNodeEx((void*)(intptr_t)id.Id, ImGuiTreeNodeFlags_DefaultOpen, "ID: %d Name: %s %f", id.Id, name.m_Name.c_str(), t.m_Transform.getScale().x);
+        bool nodeOpen = ImGui::TreeNodeEx((void*)(intptr_t)info.Id, ImGuiTreeNodeFlags_DefaultOpen, "ID: %d Name: %s", info.Id, info.Name.c_str());
 
-        if (ImGui::IsItemClicked()) setSelected(id.Id,0);
+        if (ImGui::IsItemClicked()) setSelected(info.Id,0);
         if (selected)  ImGui::PopStyleColor();
 
         if (nodeOpen) {
@@ -100,7 +98,7 @@ namespace KLS
         if (m_Selected.hasComponent<KLS_COMPONENT_PHYSXOBJECT>())
         {
             auto& po = m_Selected.getComponent<KLS_COMPONENT_PHYSXOBJECT>();
-            if (po.m_PhysxObject)
+            if (po.PhysXObject)
             {
                 if (scalechanged)
                 {
@@ -109,12 +107,12 @@ namespace KLS
                 else
                 if (positionchanged)
                 {
-                    po.m_PhysxObject->setPosition(m_Selected.getTransform().getPosition());
+                    po.PhysXObject->setPosition(m_Selected.getTransform().getPosition());
                 }
                 else
                 if (rotationchanged)
                 {
-                   po.m_PhysxObject->setRotation(m_Selected.getTransform().getRotation());
+                   po.PhysXObject->setRotation(m_Selected.getTransform().getRotation());
                 }
             }
         }

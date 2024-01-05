@@ -9,6 +9,7 @@
 #include "KLS_Entity.h"
 #include <imgui.h>
 #include <ImGuizmo.h>
+#include <KLS_ECS_YAML_Helpers.h>
 
 // unclutter the global namespace
 namespace KLS

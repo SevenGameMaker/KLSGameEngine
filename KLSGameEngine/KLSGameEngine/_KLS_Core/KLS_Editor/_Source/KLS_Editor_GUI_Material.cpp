@@ -36,10 +36,10 @@ namespace KLS
            {
                std::string current = "";
                KLS_Material mat;
-               if (mesh.m_Mesh)
+               if (mesh.Mesh)
                {
-                  current = mesh.m_Mesh->getName();
-                  mat = mesh.m_Mesh->getMaterial(0);
+                  current = mesh.Mesh->getName();
+                  mat = mesh.Mesh->getMaterial(0);
                }
 
                if (ImGui::Button("file"))
@@ -47,9 +47,9 @@ namespace KLS
                    std::string filename = getFile(current, KLS_MESHPATH, KLS_FILES_MESH);
                    if (filename != current)
                    {
-                       getDriver()->getResourceManager()->removeMesh(mesh.m_Mesh);
-                       mesh.m_Mesh = getDriver()->getResourceManager()->getMesh(filename);
-                       if (mesh.m_Mesh) mesh.m_Mesh->getMaterial(0).MaterialType = mat.MaterialType;
+                       getDriver()->getResourceManager()->removeMesh(mesh.Mesh);
+                       mesh.Mesh = getDriver()->getResourceManager()->getMesh(filename);
+                       if (mesh.Mesh) mesh.Mesh->getMaterial(0).MaterialType = mat.MaterialType;
                        if (m_Selected.hasComponent<KLS_COMPONENT_HILITE>())
                            m_Selected.removeComponent<KLS_COMPONENT_HILITE>();
                    }
@@ -61,9 +61,9 @@ namespace KLS
             }
         }
 
-        for (int x = 0; x < mesh.m_Mesh->getMaterialCount(); x++)
+        for (int x = 0; x < mesh.Mesh->getMaterialCount(); x++)
         {
-            KLS_Material& mat = mesh.m_Mesh->getMaterial(x);
+            KLS_Material& mat = mesh.Mesh->getMaterial(x);
 
             std::string title = "Material" + std::to_string(x);
             ImGui::PushID(title.c_str());

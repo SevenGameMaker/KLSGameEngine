@@ -81,6 +81,10 @@ namespace KLS
         // common parent / child relationship methods
         void destroyChildren();
         void removeFromParent();
+
+        template <typename TComponent>
+        static void RegisterMetaComponent();
+
     };
 
 } // end namespace

@@ -4,6 +4,7 @@
 #include "_KLS_Driver.h"
 #include "KLS_Window.h"
 #include "KLS_Camera.h"
+#include "KLS_Camera_FPS.h"
 #include "KLS_FrameBufferManager.h"
 #include "KLS_FrameBuffer.h"
 #include "KLS_ResourceManager.h"
@@ -27,7 +28,7 @@ namespace KLS
 			{
 				if (ImGui::MenuItem("Open Project...", "Ctrl+O"))
 				{
-					loadFromDisk("D:/_Programming/_Best Core Application/KLS Game Engine Core/_Examples/_Bin/_SaveGames/testing.cs");
+					loadFromDisk("D:/_Programming/KLSGameEngine/KLSGameEngine/_Examples/_Bin/_SaveGames/testing.cs");
 				}
 
 				ImGui::Separator();
@@ -43,7 +44,7 @@ namespace KLS
 
 				if (ImGui::MenuItem("Save Scene", "Ctrl+S"))
 				{
-					saveToDisk("D:/_Programming/_Best Core Application/KLS Game Engine Core/_Examples/_Bin/_SaveGames/testing.cs");
+					saveToDisk("D:/_Programming/KLSGameEngine/KLSGameEngine/_Examples/_Bin/_SaveGames/testing.cs");
 				}
 
 				if (ImGui::MenuItem("Save Scene As...", "Ctrl+Shift+S"))

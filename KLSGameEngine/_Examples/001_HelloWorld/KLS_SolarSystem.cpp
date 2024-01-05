@@ -90,10 +90,10 @@ namespace KLS
 
 			// Add the circular orbit component for the planet
 			KLS_COMPONENT_FLYCIRCLE fc;
-			fc.m_Center = glm::vec3(0);
-			fc.m_Radius = planets[i].distance;
-			fc.m_Speed = planets[i].orbitSpeed;
-			fc.m_StartTime = planets[i].startTime;
+			fc.Center = glm::vec3(0);
+			fc.Radius = planets[i].distance;
+			fc.Speed = planets[i].orbitSpeed;
+			fc.StartTime = planets[i].startTime;
 			planet.addComponent<KLS_COMPONENT_FLYCIRCLE>(fc);
 
 			createFlightPath(sun, "flight", glm::vec3(2 * planets[i].distance / sunscale.x), Info.PlanetOrbitColor, 0.0f);
@@ -107,10 +107,10 @@ namespace KLS
 
 					// Add the circular orbit component for the planet
 					KLS_COMPONENT_FLYCIRCLE fc;
-					fc.m_Center = glm::vec3(0.0f);
-					fc.m_Radius = planets[i].moons[m].distance;
-					fc.m_Speed = planets[i].moons[m].orbitSpeed;
-					fc.m_StartTime = planets[i].moons[m].startTime;
+					fc.Center = glm::vec3(0.0f);
+					fc.Radius = planets[i].moons[m].distance;
+					fc.Speed = planets[i].moons[m].orbitSpeed;
+					fc.StartTime = planets[i].moons[m].startTime;
 					moon.addComponent<KLS_COMPONENT_FLYCIRCLE>(fc);
 
 					float flightscale = 2 * planets[i].moons[m].distance / planets[i].scale / sunscale.x;
@@ -132,10 +132,10 @@ namespace KLS
 			e.addComponent<KLS_COMPONENT_MESH>(Mesh);
 
 			KLS_Entity le = Level->getECS()->createEntity(Level->getUniqueId(), "Light", KLS_Transform(glm::vec3(0),KLS_IDENTITY_QUAT,glm::vec3(0.1f)));
-				KLS_COMPONENT_LIGHT ld;
+				KLS_LightData ld;
 					le.addComponent<KLS_COMPONENT_LIGHT>(ld);
 					KLS_Mesh* lightMesh = Level->getDriver()->getResourceManager()->getMesh("../../../../_media/_assets/_models/_default/light.obj", KLSVT3D);
-						lightMesh->getMaterial(0).ColorDiffuse = ld.m_LightData.color;
+						lightMesh->getMaterial(0).ColorDiffuse = ld.color;
 						lightMesh->getMaterial(0).MaterialType = KLSMT_COLOR;
 					le.addComponent<KLS_COMPONENT_MESH>(lightMesh);
 			e.addChild(le);
@@ -186,7 +186,7 @@ namespace KLS
 			Mesh->getMaterial(0).MaterialType = KLSMT_BUMPMAP;
 		KLS_Entity e = Level->getECS()->createEntity(Level->getUniqueId(), name, transform);
 			e.addComponent<KLS_COMPONENT_MESH>(Mesh);
-			e.addComponent<KLS_COMPONENT_ROTATE>(glm::vec3(0.0f, .1f, 0.0f));
+			e.addComponent<KLS_COMPONENT_ROTATE>();// glm::vec3(0.0f, .1f, 0.0f));
 		if (parent.getEntity() != entt::null) parent.addChild(e);
 
 

@@ -21,6 +21,7 @@ namespace KLS
 		KLS_VARIABLE_GET(KLS_Driver*, Driver, nullptr);  // pointer to the driver instance
 		KLS_VARIABLE(KLS_AABBBox, BoundingBox, KLS_AABBBox(glm::vec3(-.5f), glm::vec3(.5f)));
 		KLS_VARIABLE_SETGET(std::string, Name, "");
+		KLS_VARIABLE_GET(KLS_VERTEX_TYPE, VertexType, KLSVT_NONE);
 
 		// list of meshbuffers
 		std::vector<KLS_MeshBuffer*> m_MeshBuffers;

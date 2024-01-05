@@ -91,20 +91,20 @@ namespace KLS
 	void myLevel_003::createWorld()
 	{
 		KLS_Entity le = getECS()->createEntity(getUniqueId(), "Light", KLS_Transform(glm::vec3(0,5,0), KLS_IDENTITY_QUAT, glm::vec3(1.f)));
-		KLS_COMPONENT_LIGHT ld;
-			ld.m_LightData.color = getRandomColor();
+		KLS_LightData ld;
+			ld.color = getRandomColor();
 			le.addComponent<KLS_COMPONENT_LIGHT>(ld);
 		KLS_Mesh* lightMesh = getDriver()->getResourceManager()->getMesh("../../../../_media/_assets/_models/_default/light.obj", KLSVT3D);
-			lightMesh->getMaterial(0).ColorDiffuse = ld.m_LightData.color;
+			lightMesh->getMaterial(0).ColorDiffuse = ld.color;
 			lightMesh->getMaterial(0).MaterialType = KLSMT_COLOR;
 			le.addComponent<KLS_COMPONENT_MESH>(lightMesh);
 
 			// Add the circular orbit component for the light
 		KLS_COMPONENT_FLYCIRCLE fc;
-			fc.m_Center = glm::vec3(0.0f,5.0f,0.0f);
-			fc.m_Radius = 20.0f;
-			fc.m_Speed = 1.0f;
-			fc.m_StartTime = 0.0f;
+			fc.Center = glm::vec3(0.0f,5.0f,0.0f);
+			fc.Radius = 20.0f;
+			fc.Speed = 1.0f;
+			fc.StartTime = 0.0f;
 		le.addComponent<KLS_COMPONENT_FLYCIRCLE>(fc);
 
 		KLS_Entity plane = createCube(KLS_Entity(), getUniqueId(), KLS_Transform(glm::vec3(0), KLS_IDENTITY_QUAT, glm::vec3(100,1,100)), true, false, glm::vec3(), 0.0f);

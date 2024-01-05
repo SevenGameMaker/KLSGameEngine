@@ -12,6 +12,7 @@ namespace KLS
 	KLS_Mesh::KLS_Mesh(KLS_Driver* driver, KLS_VERTEX_TYPE vertextype, KLS_VertexBufferLayout layout, std::vector<float>& vertexData, std::vector<uint32_t>& indexData)
 	{
 		m_Driver = driver;
+		m_VertexType = vertextype;
 		addMeshBuffer(new KLS_MeshBuffer(driver, vertextype, layout, vertexData, indexData));
 	}
 
@@ -27,6 +28,7 @@ namespace KLS
 
 	KLS_MeshBuffer* KLS_Mesh::addMeshBuffer(KLS_MeshBuffer* mb)
 	{
+		m_VertexType = mb->getVertexType();
 		m_MeshBuffers.push_back(mb);
 		mb->getMaterial().MeshBuffer = (int)m_MeshBuffers.size()-1;
 		return mb;

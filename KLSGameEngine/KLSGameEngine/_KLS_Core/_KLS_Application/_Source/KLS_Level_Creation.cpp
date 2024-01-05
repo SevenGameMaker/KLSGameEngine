@@ -5,6 +5,7 @@
 #include "KLS_PhysX_World.h"
 #include "KLS_PhysX_Object.h"
 #include "_KLS_ECS_Components.h"
+#include "KLS_UniformData.h"
 
 namespace KLS
 {
@@ -14,18 +15,18 @@ namespace KLS
 		if (e.hasComponent<KLS_COMPONENT_PHYSXOBJECT>())
 		{
 			auto& po = e.getComponent<KLS_COMPONENT_PHYSXOBJECT>();
-			if (po.m_PhysxObject)
+			if (po.PhysXObject)
 			{
 				// we have to recreate the po
-				KLS_PhysX_ObjectCreationParams params = po.m_PhysxObject->getParams();
+				KLS_PhysX_ObjectCreationParams params = po.PhysXObject->getParams();
 
 				// remove the old po
-				po.m_PhysxObject->cleanup();
-				delete(po.m_PhysxObject);
+				po.PhysXObject->cleanup();
+				delete(po.PhysXObject);
 
 				// create a new physx object
 				params.Scale = e.getTransform().getScale();
-				po.m_PhysxObject = getPhysXWorld()->createPhysXObject(params);
+				po.PhysXObject = getPhysXWorld()->createPhysXObject(params);
 			}
 		}
 	}
@@ -52,12 +53,13 @@ namespace KLS
 	KLS_Entity KLS_Level::createLight(KLS_Entity parent, KLS_UUID id, KLS_Transform t, glm::vec4 color)
 	{
 		KLS_Entity le = getECS()->createEntity(id, "Light", t);
-		KLS_COMPONENT_LIGHT ld;
-		le.addComponent<KLS_COMPONENT_LIGHT>(ld);
+			le.addComponent<KLS_COMPONENT_LIGHT>(KLS_LightData());
+
 		KLS_Mesh* lightMesh = getDriver()->getResourceManager()->getMesh("../../../../_media/_assets/_models/_default/light.obj", KLSVT3D);
 		if (lightMesh)
 		{
-			lightMesh->getMaterial(0).ColorDiffuse = ld.m_LightData.color;
+			auto& llc = le.getComponent<KLS_COMPONENT_LIGHT>();
+			lightMesh->getMaterial(0).ColorDiffuse = llc.LightData.color;
 			lightMesh->getMaterial(0).MaterialType = KLSMT_COLOR;
 		}
 		le.addComponent<KLS_COMPONENT_MESH>(lightMesh);
@@ -93,7 +95,7 @@ namespace KLS
 
 		if (physx)
 		{
-			KLS_COMPONENT_PHYSXOBJECT po;
+			KLS_COMPONENT_PHYSXOBJECT po(nullptr);
 			KLS_PhysX_ObjectCreationParams params;
 			params.Dynamic = dynamic;
 			params.Mass = 100.0f;
@@ -102,9 +104,9 @@ namespace KLS
 			params.Type = POT_CUBE;
 			params.ObjectType = KLSOT_OBJECT;
 			params.ObjectId = id;
-			po.m_PhysxObject = getPhysXWorld()->createPhysXObject(params);
-			po.m_PhysxObject->addForce(dir, velocity);
-			if (po.m_PhysxObject) e.addComponent<KLS_COMPONENT_PHYSXOBJECT>(po);
+			po.PhysXObject = getPhysXWorld()->createPhysXObject(params);
+			po.PhysXObject->addForce(dir, velocity);
+			if (po.PhysXObject) e.addComponent<KLS_COMPONENT_PHYSXOBJECT>(po);
 		}
 
 		return e;
@@ -177,7 +179,7 @@ namespace KLS
 
 		if (physx)
 		{
-			KLS_COMPONENT_PHYSXOBJECT po;
+			KLS_COMPONENT_PHYSXOBJECT po(nullptr);
 			KLS_PhysX_ObjectCreationParams params;
 			params.Dynamic = false;
 			params.Mass = 100.0f;
@@ -187,8 +189,8 @@ namespace KLS
 			params.ObjectType = KLSOT_OBJECT;
 			params.ObjectId = id;
 			params.Mesh = Mesh;
-			po.m_PhysxObject = getPhysXWorld()->createPhysXObject(params);
-			if (po.m_PhysxObject != nullptr)	e.addComponent<KLS_COMPONENT_PHYSXOBJECT>(po);
+			po.PhysXObject = getPhysXWorld()->createPhysXObject(params);
+			if (po.PhysXObject != nullptr)	e.addComponent<KLS_COMPONENT_PHYSXOBJECT>(po);
 		}
 
 		return e;

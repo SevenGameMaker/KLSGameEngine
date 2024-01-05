@@ -185,7 +185,7 @@ namespace KLS
 		if (!m_Selected.isNull())
 		{
 			if (m_Selected.hasComponent<KLS_COMPONENT_HILITE>()) m_Selected.removeComponent<KLS_COMPONENT_HILITE>();
-			if (m_Selected.hasComponent<KLS_COMPONENT_DEBUG>()) m_Selected.removeComponent<KLS_COMPONENT_DEBUG>();
+			if (m_Selected.hasComponent<KLS_COMPONENT_DEBUGINFO>()) m_Selected.removeComponent<KLS_COMPONENT_DEBUGINFO>();
 		}
 
 		m_Selected = getECS()->findEntityById(id);
@@ -195,7 +195,7 @@ namespace KLS
 		{
 			m_Origin = m_Selected.getTransform();
 			if (m_ShowSelectedBuffer) m_Selected.addComponent<KLS_COMPONENT_HILITE>(meshbuffer);
-			if (m_ShowDebugInfo) m_Selected.addComponent<KLS_COMPONENT_DEBUG>(true, nullptr);
+			if (m_ShowDebugInfo) m_Selected.addComponent<KLS_COMPONENT_DEBUGINFO>(nullptr);
 		}
 		else
 		{
@@ -244,10 +244,10 @@ namespace KLS
 
 		if (!m_Selected.isNull())
 		{
-			if ((!m_ShowDebugInfo) && (m_Selected.hasComponent<KLS_COMPONENT_DEBUG>()))
-				m_Selected.removeComponent<KLS_COMPONENT_DEBUG>();
+			if ((!m_ShowDebugInfo) && (m_Selected.hasComponent<KLS_COMPONENT_DEBUGINFO>()))
+				m_Selected.removeComponent<KLS_COMPONENT_DEBUGINFO>();
 			if (m_ShowDebugInfo)
-				m_Selected.addComponent<KLS_COMPONENT_DEBUG>(true, nullptr);
+				m_Selected.addComponent<KLS_COMPONENT_DEBUGINFO>(nullptr);
 		}
 	}
 

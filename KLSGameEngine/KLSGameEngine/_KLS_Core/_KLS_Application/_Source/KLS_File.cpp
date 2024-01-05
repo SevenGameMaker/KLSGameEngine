@@ -34,12 +34,13 @@ namespace KLS
         }
 #endif
 
+ /*
         if (!fs::copy_file(ComponentSourcePathStr, ComponentDestPathStr, fs::copy_options::overwrite_existing))
         {
             KLS_ERROR("unable to copy component definition file");
             return KLS_FAILURE;
         }
-
+*/
         // everything went fine
         return KLS_SUCCESS;
     }

@@ -22,6 +22,7 @@ namespace KLS
 		KLS_VARIABLE_GET(KLS_VertexArray*, VAO, nullptr);				// the vertexarray
 		KLS_VARIABLE(KLS_Material, Material,KLS_IDENTITY_MATERIAL);		// the material
 		KLS_VARIABLE(KLS_AABBBox, BoundingBox, KLS_IDENTITY_AABBBOX);	// bounding box
+		KLS_VARIABLE_GET(KLS_VERTEX_TYPE, VertexType, KLSVT_NONE);
 
 	public:
 		// default constructor - at minimum, this class needs to knwo the driver

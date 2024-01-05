@@ -93,6 +93,24 @@
     <Filter Include="_KLS_Core\KLS_Editor\_Source">
       <UniqueIdentifier>{a94d8056-9464-4f9f-beeb-1851c41f6a84}</UniqueIdentifier>
     </Filter>
+    <Filter Include="_KLS_Core\_KLS_ECS\Components">
+      <UniqueIdentifier>{d98504a2-75c6-4468-bdca-fa8028ed16d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_ECS\Components\_Include">
+      <UniqueIdentifier>{ecc0ae02-6a79-4636-b316-cc8d06b879d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_ECS\Components\_Source">
+      <UniqueIdentifier>{d8f4414b-2919-4746-b652-48483a8387da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_ECS\Systems">
+      <UniqueIdentifier>{01fd3cd5-6f86-4aa1-b7cb-d0be593639fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_ECS\Systems\_Include">
+      <UniqueIdentifier>{3a883bc0-4b28-4f95-894a-3907c4426e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_KLS_Core\_KLS_ECS\Systems\_Source">
+      <UniqueIdentifier>{b71c000d-be5f-4ac8-bf57-59d4a98c6e42}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -281,13 +299,7 @@
     <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_Entity.cpp">
       <Filter>_KLS_Core\_KLS_ECS\_Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_Components.cpp">
-      <Filter>_KLS_Core\_KLS_ECS\_Source</Filter>
-    </ClCompile>
     <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_ECS_System.cpp">
-      <Filter>_KLS_Core\_KLS_ECS\_Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\_KLS_ECS_Systems.cpp">
       <Filter>_KLS_Core\_KLS_ECS\_Source</Filter>
     </ClCompile>
     <ClCompile Include="..\_KLS_Core\_KLS_PhysX\_Source\KLS_PhysX.cpp">
@@ -358,6 +370,15 @@
     </ClCompile>
     <ClCompile Include="..\_KLS_Core\_KLS_Application\_Source\KLS_UUID.cpp">
       <Filter>_KLS_Core\_KLS_Application\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\Components\_Source\KLS_Components.cpp">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\Systems\_Source\_KLS_ECS_Systems.cpp">
+      <Filter>_KLS_Core\_KLS_ECS\Systems\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_ECS_YAML_Helpers.cpp">
+      <Filter>_KLS_Core\_KLS_ECS\_Source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -559,13 +580,7 @@
     <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\KLS_Entity.h">
       <Filter>_KLS_Core\_KLS_ECS\_Include</Filter>
     </ClInclude>
-    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\_KLS_ECS_Components.h">
-      <Filter>_KLS_Core\_KLS_ECS\_Include</Filter>
-    </ClInclude>
     <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\KLS_ECS_System.h">
-      <Filter>_KLS_Core\_KLS_ECS\_Include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\_KLS_ECS_Systems.h">
       <Filter>_KLS_Core\_KLS_ECS\_Include</Filter>
     </ClInclude>
     <ClInclude Include="..\_KLS_Core\_KLS_PhysX\_Include\_KLS_PhysX.h">
@@ -606,6 +621,57 @@
     </ClInclude>
     <ClInclude Include="..\_KLS_Core\_KLS_Application\_Include\KLS_UUID.h">
       <Filter>_KLS_Core\_KLS_Application\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\_KLS_ECS_Components.h">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_INFO.h">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Systems\_Include\_KLS_ECS_Systems.h">
+      <Filter>_KLS_Core\_KLS_ECS\Systems\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\_KLS_COMPONENT.h">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\KLS_ECS_YAML_Helpers.h">
+      <Filter>_KLS_Core\_KLS_ECS\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_MESH.h">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_PHYSXOBJECT.h">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_DEATHTIMER.h">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_HILITE.h">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_DEBUGINFO.h">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_PARENT.h">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_SKYBOX.h">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_LIGHT.h">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_CAMERA.h">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_CONTROLLER.h">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_FLYCIRCLE.h">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_ROTATE.h">
+      <Filter>_KLS_Core\_KLS_ECS\Components\_Include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

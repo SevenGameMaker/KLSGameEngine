@@ -35,16 +35,16 @@ namespace KLS
         if (m_Selected.hasComponent<KLS_COMPONENT_PHYSXOBJECT>())
         {
             auto& physx = m_Selected.getComponent<KLS_COMPONENT_PHYSXOBJECT>();
-            if (physx.m_PhysxObject) params = physx.m_PhysxObject->getParams();
+            if (physx.PhysXObject) params = physx.PhysXObject->getParams();
 
             // if the user want to remove the current physx object then do so
             if (ImGui::Button("Remove"))
             {
-                if (physx.m_PhysxObject)
+                if (physx.PhysXObject)
                 {
-                    physx.m_PhysxObject->cleanup();
-                    delete(physx.m_PhysxObject);
-                    physx.m_PhysxObject = nullptr;
+                    physx.PhysXObject->cleanup();
+                    delete(physx.PhysXObject);
+                    physx.PhysXObject = nullptr;
                     m_Selected.removeComponent<KLS_COMPONENT_PHYSXOBJECT>();
                     ImGui::End();
                     return;
@@ -93,11 +93,11 @@ namespace KLS
                 if (m_Selected.hasComponent<KLS_COMPONENT_PHYSXOBJECT>())
                 {
                     auto& physx = m_Selected.getComponent<KLS_COMPONENT_PHYSXOBJECT>();
-                    if (physx.m_PhysxObject)
+                    if (physx.PhysXObject)
                     {
-                        physx.m_PhysxObject->cleanup();
-                        delete(physx.m_PhysxObject);
-                        physx.m_PhysxObject = nullptr;
+                        physx.PhysXObject->cleanup();
+                        delete(physx.PhysXObject);
+                        physx.PhysXObject = nullptr;
                         m_Selected.removeComponent<KLS_COMPONENT_PHYSXOBJECT>();
                     }
                 }
@@ -106,12 +106,11 @@ namespace KLS
                 if (m_Selected.hasComponent<KLS_COMPONENT_MESH>())
                 {
                     auto& mesh = m_Selected.getComponent<KLS_COMPONENT_MESH>();
-                    params.Mesh = mesh.m_Mesh;
+                    params.Mesh = mesh.Mesh;
                 }
 
-                KLS_COMPONENT_PHYSXOBJECT po;
-                   po.m_PhysxObject = getPhysXWorld()->createPhysXObject(params);
-                   if (po.m_PhysxObject) m_Selected.addComponent<KLS_COMPONENT_PHYSXOBJECT>(po);
+                KLS_COMPONENT_PHYSXOBJECT po(getPhysXWorld()->createPhysXObject(params));
+                   if (po.PhysXObject) m_Selected.addComponent<KLS_COMPONENT_PHYSXOBJECT>(po);
         }
 
         ImGui::End();

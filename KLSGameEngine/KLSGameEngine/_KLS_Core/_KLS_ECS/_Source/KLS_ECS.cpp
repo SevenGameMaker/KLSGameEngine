@@ -11,6 +11,7 @@
 #include "KLS_Mesh.h"
 #include <filesystem>
 namespace fs = std::filesystem;
+#include "KLS_COMPONENT_INFO.h"
 
 // unclutter the global namespace
 namespace KLS
@@ -61,11 +62,7 @@ namespace KLS
 	{
 		entt::entity enttEntity = m_Registry.create();
 		KLS_Entity e = KLS_Entity(this, enttEntity);
-			e.addComponent<KLS_COMPONENT_NAME>(name);
-			e.addComponent<KLS_COMPONENT_ID>(id);
-			e.addComponent<KLS_COMPONENT_CHILDREN>();
-			e.addComponent<KLS_COMPONENT_CAMERA_DISTANCE>(0.0f);
-			e.addComponent<KLS_COMPONENT_TRANSFORM>(t);
+			e.addComponent<KLS_COMPONENT_INFO>(id, name,t);
 		return e;
 	}
 
@@ -115,11 +112,11 @@ namespace KLS
 	
 	KLS_Entity KLS_ECS::findEntityByName(const std::string& name)
 	{
-		auto view = m_Registry.view<KLS_COMPONENT_NAME>();
+		auto view = m_Registry.view<KLS_COMPONENT_INFO>();
 		for (entt::entity entity : view)
 		{
-			auto& nameComponent = m_Registry.get<KLS_COMPONENT_NAME>(entity);
-			if (nameComponent.m_Name == name)
+			auto& nameComponent = m_Registry.get<KLS_COMPONENT_INFO>(entity);
+			if (nameComponent.Name == name)
 			{
 				return KLS_Entity(this, entity);
 			}
@@ -129,10 +126,10 @@ namespace KLS
 
 	KLS_Entity KLS_ECS::findEntityById(const KLS_UUID& id)
 	{
-		auto view = m_Registry.view<KLS_COMPONENT_NAME>();
+		auto view = m_Registry.view<KLS_COMPONENT_INFO>();
 		for (entt::entity entity : view)
 		{
-			auto& idComponent = m_Registry.get<KLS_COMPONENT_ID>(entity);
+			auto& idComponent = m_Registry.get<KLS_COMPONENT_INFO>(entity);
 			if (idComponent.Id == id)
 			{
 				return KLS_Entity(this, entity);
@@ -165,15 +162,15 @@ namespace KLS
 		if (temp.hasComponent<KLS_COMPONENT_MESH>())
 		{
 			KLS_COMPONENT_MESH& mesh = temp.getComponent<KLS_COMPONENT_MESH>();
-			m_Level->getDriver()->getResourceManager()->removeMesh(mesh.m_Mesh);
+			m_Level->getDriver()->getResourceManager()->removeMesh(mesh.Mesh);
 		}
 
 		if (temp.hasComponent<KLS_COMPONENT_PHYSXOBJECT>())
 		{
 			KLS_COMPONENT_PHYSXOBJECT& po = temp.getComponent<KLS_COMPONENT_PHYSXOBJECT>();
-			po.m_PhysxObject->cleanup();
-			delete(po.m_PhysxObject);
-			po.m_PhysxObject = nullptr;
+			po.PhysXObject->cleanup();
+			delete(po.PhysXObject);
+			po.PhysXObject = nullptr;
 		}
 	}
 

@@ -72,8 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <TargetName>KLSGameEngine_debug</TargetName>
-    <IncludePath>..\..\_Externals\yaml-cpp-master\include;..\..\_Externals\ImGuizmo-master;..\_KLS_Core\KLS_Editor\_Include;..\_KLS_Core\_KLS_PhysX\_Include;..\_KLS_Core\_KLS_ECS\_Include;..\_KLS_Core\_KLS_ImGui\_Include;..\_KLS_Core\_KLS_Math\_Include;..\_KLS_Core\_KLS_Application\_Include;..\_KLS_Core\_KLS_Driver\_Include;..\_KLS_OpenGL_Driver\_Include;..\..\_Externals\physx\PhysX-main\physx\include;..\..\_Externals\entt\single_include;..\..\_Externals\glad\glad;..\..\_Externals\assimp\assimp-5.0.1\include;..\..\_Externals\stb;..\..\_Externals\glad;..\..\_Externals\cmake-imgui\imgui\backends;..\..\_Externals\cmake-imgui\imgui;..\..\_Externals\glm;..\..\_Externals\spdlog\_Include;..\..\_Externals\glfw\_Include;$(IncludePath)</IncludePath>
-    <LibraryPath>..\..\_Externals\yaml-cpp-master\_Lib;..\..\_Externals\physx\PhysX-main\physx\bin\win.x86_64.vc143.mt\debug;..\..\_Externals\assimp\_USE_THESE;..\..\_Externals\cmake-imgui\_Lib;..\..\_Externals\spdlog\_Lib;..\..\_Externals\glfw\_Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\_KLS_Core\_KLS_ECS\Systems\_Include;..\_KLS_Core\_KLS_ECS\Components\_Include;..\..\_Externals\sol2-develop\include;..\..\_Externals\yaml-cpp-master\include;..\..\_Externals\ImGuizmo-master;..\_KLS_Core\KLS_Editor\_Include;..\_KLS_Core\_KLS_PhysX\_Include;..\_KLS_Core\_KLS_ECS\_Include;..\_KLS_Core\_KLS_ImGui\_Include;..\_KLS_Core\_KLS_Math\_Include;..\_KLS_Core\_KLS_Application\_Include;..\_KLS_Core\_KLS_Driver\_Include;..\_KLS_OpenGL_Driver\_Include;..\..\_Externals\physx\PhysX-main\physx\include;..\..\_Externals\entt\single_include;..\..\_Externals\glad\glad;..\..\_Externals\assimp\assimp-5.0.1\include;..\..\_Externals\stb;..\..\_Externals\glad;..\..\_Externals\cmake-imgui\imgui\backends;..\..\_Externals\cmake-imgui\imgui;..\..\_Externals\glm;..\..\_Externals\spdlog\_Include;..\..\_Externals\glfw\_Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\_Externals\sol2-develop\_Bin\Debug;..\..\_Externals\yaml-cpp-master\_Lib;..\..\_Externals\physx\PhysX-main\physx\bin\win.x86_64.vc143.mt\debug;..\..\_Externals\assimp\_USE_THESE;..\..\_Externals\cmake-imgui\_Lib;..\..\_Externals\spdlog\_Lib;..\..\_Externals\glfw\_Lib;$(LibraryPath)</LibraryPath>
     <OutDir>..\..\_Examples\_Bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -84,8 +84,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <TargetName>KLSGameEngine</TargetName>
-    <IncludePath>..\..\_Externals\yaml-cpp-master\include;..\..\_Externals\ImGuizmo-master;..\_KLS_Core\KLS_Editor\_Include;..\_KLS_Core\_KLS_PhysX\_Include;..\_KLS_Core\_KLS_ECS\_Include;..\_KLS_Core\_KLS_ImGui\_Include;..\_KLS_Core\_KLS_Math\_Include;..\_KLS_Core\_KLS_Application\_Include;..\_KLS_Core\_KLS_Driver\_Include;..\_KLS_OpenGL_Driver\_Include;..\..\_Externals\physx\PhysX-main\physx\include;..\..\_Externals\entt\single_include;..\..\_Externals\glad\glad;..\..\_Externals\assimp\assimp-5.0.1\include;..\..\_Externals\stb;..\..\_Externals\glad;..\..\_Externals\cmake-imgui\imgui\backends;..\..\_Externals\cmake-imgui\imgui;..\..\_Externals\glm;..\..\_Externals\spdlog\_Include;..\..\_Externals\glfw\_Include;$(IncludePath)</IncludePath>
-    <LibraryPath>..\..\_Externals\yaml-cpp-master\_Lib;..\..\_Externals\physx\PhysX-main\physx\bin\win.x86_64.vc143.mt\checked;..\..\_Externals\assimp\_USE_THESE;..\..\_Externals\cmake-imgui\_Lib;..\..\_Externals\spdlog\_Lib;..\..\_Externals\glfw\_Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\_KLS_Core\_KLS_ECS\Systems\_Include;..\_KLS_Core\_KLS_ECS\Components\_Include;..\..\_Externals\sol2-develop\include;..\..\_Externals\yaml-cpp-master\include;..\..\_Externals\ImGuizmo-master;..\_KLS_Core\KLS_Editor\_Include;..\_KLS_Core\_KLS_PhysX\_Include;..\_KLS_Core\_KLS_ECS\_Include;..\_KLS_Core\_KLS_ImGui\_Include;..\_KLS_Core\_KLS_Math\_Include;..\_KLS_Core\_KLS_Application\_Include;..\_KLS_Core\_KLS_Driver\_Include;..\_KLS_OpenGL_Driver\_Include;..\..\_Externals\physx\PhysX-main\physx\include;..\..\_Externals\entt\single_include;..\..\_Externals\glad\glad;..\..\_Externals\assimp\assimp-5.0.1\include;..\..\_Externals\stb;..\..\_Externals\glad;..\..\_Externals\cmake-imgui\imgui\backends;..\..\_Externals\cmake-imgui\imgui;..\..\_Externals\glm;..\..\_Externals\spdlog\_Include;..\..\_Externals\glfw\_Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\_Externals\sol2-develop\_Bin\Release;..\..\_Externals\yaml-cpp-master\_Lib;..\..\_Externals\physx\PhysX-main\physx\bin\win.x86_64.vc143.mt\checked;..\..\_Externals\assimp\_USE_THESE;..\..\_Externals\cmake-imgui\_Lib;..\..\_Externals\spdlog\_Lib;..\..\_Externals\glfw\_Lib;$(LibraryPath)</LibraryPath>
     <OutDir>..\..\_Examples\_Bin\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -131,7 +131,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>yaml-cppd.lib;PhysX_64.lib;PhysXCommon_64.lib;PhysXExtensions_static_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXVehicle_static_64.lib;PhysXCooking_64.lib;PhysXFoundation_64.lib;PhysXPvdSDK_static_64.lib;assimp-vc142-mtd.lib;spdlogd.lib;glfw3_debug.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>lua-5.4.4.lib;yaml-cppd.lib;PhysX_64.lib;PhysXCommon_64.lib;PhysXExtensions_static_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXVehicle_static_64.lib;PhysXCooking_64.lib;PhysXFoundation_64.lib;PhysXPvdSDK_static_64.lib;assimp-vc142-mtd.lib;spdlogd.lib;glfw3_debug.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
       <ImportLibrary>..\__Lib\$(TargetName).lib</ImportLibrary>
       <DelayLoadDLLs>PhysX_64.dll;PhysXCommon_64.dll;PhysXCooking_64.dll;PhysXDevice64.dll;PhysXFoundation_64.dll;PhysXGpu_64.dll;PVDRuntime_64.dll</DelayLoadDLLs>
     </Link>
@@ -153,7 +153,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>yaml-cpp.lib;PhysX_64.lib;PhysXCommon_64.lib;PhysXExtensions_static_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXVehicle_static_64.lib;PhysXCooking_64.lib;PhysXFoundation_64.lib;PhysXPvdSDK_static_64.lib;assimp-vc142-mt.lib;spdlog.lib;glfw3.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>lua-5.4.4.lib;yaml-cpp.lib;PhysX_64.lib;PhysXCommon_64.lib;PhysXExtensions_static_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXVehicle_static_64.lib;PhysXCooking_64.lib;PhysXFoundation_64.lib;PhysXPvdSDK_static_64.lib;assimp-vc142-mt.lib;spdlog.lib;glfw3.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
       <ImportLibrary>..\__Lib\$(TargetName).lib</ImportLibrary>
       <DelayLoadDLLs>PhysX_64.dll;PhysXCommon_64.dll;PhysXCooking_64.dll;PhysXDevice64.dll;PhysXFoundation_64.dll;PhysXGpu_64.dll;PVDRuntime_64.dll</DelayLoadDLLs>
     </Link>
@@ -263,12 +263,13 @@
     <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_Texture.cpp" />
     <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\KLS_VertexBufferLayout.cpp" />
     <ClCompile Include="..\_KLS_Core\_KLS_Driver\_Source\_KLS_Driver.cpp" />
-    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_Components.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\Components\_Source\KLS_Components.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\Systems\_Source\_KLS_ECS_Systems.cpp" />
     <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_ECS.cpp" />
     <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_ECS_System.cpp" />
+    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_ECS_YAML_Helpers.cpp" />
     <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_Entity.cpp" />
     <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\KLS_Level_Serialize.cpp" />
-    <ClCompile Include="..\_KLS_Core\_KLS_ECS\_Source\_KLS_ECS_Systems.cpp" />
     <ClCompile Include="..\_KLS_Core\_KLS_ImGui\_Source\KLS_ImGui.cpp" />
     <ClCompile Include="..\_KLS_Core\_KLS_ImGui\_Source\KLS_ImGui_Controls.cpp" />
     <ClCompile Include="..\_KLS_Core\_KLS_Math\_Source\KLS_AABBBox.cpp" />
@@ -350,11 +351,26 @@
     <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_UniformData.h" />
     <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\KLS_VertexBufferLayout.h" />
     <ClInclude Include="..\_KLS_Core\_KLS_Driver\_Include\_KLS_Driver.h" />
-    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\_KLS_ECS_Components.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_CAMERA.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_CONTROLLER.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_DEATHTIMER.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_DEBUGINFO.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_FLYCIRCLE.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_HILITE.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_INFO.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_LIGHT.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_MESH.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_PARENT.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_PHYSXOBJECT.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_ROTATE.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\KLS_COMPONENT_SKYBOX.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\_KLS_COMPONENT.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Components\_Include\_KLS_ECS_Components.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\Systems\_Include\_KLS_ECS_Systems.h" />
     <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\KLS_ECS.h" />
     <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\KLS_ECS_System.h" />
+    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\KLS_ECS_YAML_Helpers.h" />
     <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\KLS_Entity.h" />
-    <ClInclude Include="..\_KLS_Core\_KLS_ECS\_Include\_KLS_ECS_Systems.h" />
     <ClInclude Include="..\_KLS_Core\_KLS_ImGui\_Include\KLS_ImGui.h" />
     <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_AABBBox.h" />
     <ClInclude Include="..\_KLS_Core\_KLS_Math\_Include\KLS_BoundingSphere.h" />

@@ -73,13 +73,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <TargetName>$(ProjectName)_debug</TargetName>
     <OutDir>..\_Bin\</OutDir>
-    <LibraryPath>..\..\_Externals\yaml-cpp-master\_Lib;..\..\_Externals\cmake-imgui\_Lib;..\..\KLSGameEngine\__Lib;$(LibraryPath)</LibraryPath>
-    <IncludePath>..\..\_Externals\yaml-cpp-master\include;..\..\KLS Game Engine Core\_Externals\json-develop\single_include;..\..\KLSGameEngine\_KLS_Core\KLS_Editor\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_PhysX\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_ECS\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_Math\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_ImGui\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_Application\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_Driver\_Include;..\..\_Externals\physx\PhysX-main\physx\include;..\..\_Externals\entt\single_include;..\..\_Externals\cmake-imgui\imgui\backends;..\..\_Externals\cmake-imgui\imgui;..\..\_Externals\glm;..\..\_Externals\spdlog\_Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\_Externals\sol2-develop\_Bin\Debug;..\..\_Externals\yaml-cpp-master\_Lib;..\..\_Externals\cmake-imgui\_Lib;..\..\KLSGameEngine\__Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\..\KLSGameEngine\_KLS_Core\_KLS_ECS\Systems\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_ECS\Components\_Include;..\..\_Externals\sol2-develop\include;..\..\_Externals\yaml-cpp-master\include;..\..\KLS Game Engine Core\_Externals\json-develop\single_include;..\..\KLSGameEngine\_KLS_Core\KLS_Editor\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_PhysX\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_ECS\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_Math\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_ImGui\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_Application\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_Driver\_Include;..\..\_Externals\physx\PhysX-main\physx\include;..\..\_Externals\entt\single_include;..\..\_Externals\cmake-imgui\imgui\backends;..\..\_Externals\cmake-imgui\imgui;..\..\_Externals\glm;..\..\_Externals\spdlog\_Include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>..\_Bin\</OutDir>
-    <LibraryPath>..\..\_Externals\yaml-cpp-master\_Lib;..\..\_Externals\cmake-imgui\_Lib;..\..\KLSGameEngine\__Lib;$(LibraryPath)</LibraryPath>
-    <IncludePath>..\..\_Externals\yaml-cpp-master\include;..\..\KLS Game Engine Core\_Externals\json-develop\single_include;..\..\KLSGameEngine\_KLS_Core\KLS_Editor\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_PhysX\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_ECS\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_Math\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_ImGui\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_Application\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_Driver\_Include;..\..\_Externals\physx\PhysX-main\physx\include;..\..\_Externals\entt\single_include;..\..\_Externals\cmake-imgui\imgui\backends;..\..\_Externals\cmake-imgui\imgui;..\..\_Externals\glm;..\..\_Externals\spdlog\_Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\_Externals\sol2-develop\_Bin\Release;..\..\_Externals\yaml-cpp-master\_Lib;..\..\_Externals\cmake-imgui\_Lib;..\..\KLSGameEngine\__Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\..\KLSGameEngine\_KLS_Core\_KLS_ECS\Systems\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_ECS\Components\_Include;..\..\_Externals\sol2-develop\include;..\..\_Externals\yaml-cpp-master\include;..\..\KLS Game Engine Core\_Externals\json-develop\single_include;..\..\KLSGameEngine\_KLS_Core\KLS_Editor\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_PhysX\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_ECS\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_Math\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_ImGui\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_Application\_Include;..\..\KLSGameEngine\_KLS_Core\_KLS_Driver\_Include;..\..\_Externals\physx\PhysX-main\physx\include;..\..\_Externals\entt\single_include;..\..\_Externals\cmake-imgui\imgui\backends;..\..\_Externals\cmake-imgui\imgui;..\..\_Externals\glm;..\..\_Externals\spdlog\_Include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -121,7 +121,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>yaml-cppd.lib;KLSGameEngine_debug.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>lua-5.4.4.lib;yaml-cppd.lib;KLSGameEngine_debug.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -140,7 +140,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>yaml-cpp.lib;KLSGameEngine.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>lua-5.4.4.lib;yaml-cpp.lib;KLSGameEngine.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

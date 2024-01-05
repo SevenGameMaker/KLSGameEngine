@@ -13,6 +13,8 @@ namespace KLS
 	KLS_MeshBuffer::KLS_MeshBuffer(KLS_Driver* driver, KLS_VERTEX_TYPE vertextype, KLS_VertexBufferLayout layout, std::vector<float>& vertexData, std::vector<uint32_t>& indexData)
 		: m_Driver(driver)
 	{
+		m_VertexType = vertextype;
+
 		KLS_VertexBuffer* vbo = driver->instantiateVertexBuffer();
 		KLS_IndexBuffer* ibo = driver->instantiateIndexBuffer();
 		m_VAO = driver->instantiateVertexArray();

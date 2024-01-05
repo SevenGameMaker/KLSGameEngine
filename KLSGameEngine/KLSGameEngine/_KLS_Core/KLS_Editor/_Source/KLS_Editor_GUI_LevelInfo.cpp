@@ -4,6 +4,7 @@
 #include "_KLS_Driver.h"
 #include "KLS_Window.h"
 #include "KLS_Camera.h"
+#include "KLS_Camera_FPS.h"
 #include "KLS_FrameBufferManager.h"
 #include "KLS_FrameBuffer.h"
 #include "KLS_ResourceManager.h"

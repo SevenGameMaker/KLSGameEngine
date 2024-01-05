@@ -4,6 +4,7 @@
 #include "KLS_Entity.h"
 #include "KLS_ECS.h"
 #include "_KLS_ECS_Components.h"
+#include <yaml-cpp/yaml.h>
 
 // unclutter the global namespace
 namespace KLS
@@ -23,18 +24,18 @@ namespace KLS
 
 	std::vector<entt::entity>& KLS_Entity::getChildren()
 	{
-		return getComponent<KLS_COMPONENT_CHILDREN>().m_Children;
+		return getComponent<KLS_COMPONENT_INFO>().Children;
 	}
 
 	KLS_Transform KLS_Entity::getAbsoluteTransform()
 	{
-		KLS_COMPONENT_TRANSFORM& t = getComponent<KLS_COMPONENT_TRANSFORM>();
-		KLS_Transform result = t.m_Transform;
+		KLS_COMPONENT_INFO& t = getComponent<KLS_COMPONENT_INFO>();
+		KLS_Transform result = t.Transform;
 
 		if (hasComponent<KLS_COMPONENT_PARENT>())
 		{
 			KLS_COMPONENT_PARENT parent = getComponent<KLS_COMPONENT_PARENT>();
-			KLS_Transform pt = parent.m_Parent.getAbsoluteTransform();
+			KLS_Transform pt = parent.Parent.getAbsoluteTransform();
 			result += pt;
 		}
 
@@ -44,21 +45,21 @@ namespace KLS
 	KLS_UUID KLS_Entity::getId()
 	{
 		if (isNull()) return 0;
-		KLS_COMPONENT_ID& id = getComponent<KLS_COMPONENT_ID>();
-		return id.Id;
+		KLS_COMPONENT_INFO& info = getComponent<KLS_COMPONENT_INFO>();
+		return info.Id;
 	}
 
 	std::string KLS_Entity::getName()
 	{
 		if (isNull()) return "NULL";
-		KLS_COMPONENT_NAME& name = getComponent<KLS_COMPONENT_NAME>();
-		return name.m_Name;
+		KLS_COMPONENT_INFO& info = getComponent<KLS_COMPONENT_INFO>();
+		return info.Name;
 	}
 
 	KLS_Transform& KLS_Entity::getTransform()
 	{
 		if (isNull()) return KLS_DefaultTransform;
-		return getComponent<KLS_COMPONENT_TRANSFORM>().m_Transform;
+		return getComponent<KLS_COMPONENT_INFO>().Transform;
 	}
 
 	KLS_ECS* KLS_Entity::getECS()
@@ -81,7 +82,7 @@ namespace KLS
 		{
 			// Remove child from its existing parent
 			KLS_COMPONENT_PARENT parentComponent = theChild.getComponent<KLS_COMPONENT_PARENT>();
-			parentComponent.m_Parent.removeChild(child);
+			parentComponent.Parent.removeChild(child);
 		}
 
 		// Add the child to the m_Children vector
@@ -133,7 +134,7 @@ namespace KLS
 		{
 			// Get the parent component of the child
 			KLS_COMPONENT_PARENT parentComponent = getComponent<KLS_COMPONENT_PARENT>();
-			KLS_Entity p(getECS(), parentComponent.m_Parent.getEntity());
+			KLS_Entity p(getECS(), parentComponent.Parent.getEntity());
 			p.removeChild(m_Entity);
 		}
 	}
@@ -174,7 +175,7 @@ namespace KLS
 				KLS_Entity temp(getECS(), (*it));
 				temp.destroyChildren();
 
-				KLS_COMPONENT_ID& id = temp.getComponent<KLS_COMPONENT_ID>();
+				KLS_COMPONENT_INFO& id = temp.getComponent<KLS_COMPONENT_INFO>();
 				KLS_UUID  tempid = id.Id;
 
 				// let the ECS cleanup whatever is attached to the entity
@@ -194,7 +195,7 @@ namespace KLS
 		removeFromParent();
 		destroyChildren();
 
-		KLS_COMPONENT_ID& id = getComponent<KLS_COMPONENT_ID>();
+		KLS_COMPONENT_INFO& id = getComponent<KLS_COMPONENT_INFO>();
 		KLS_UUID  tempid = id.Id;
 
 		// let the ECS cleanup whatever is attached to the entity
